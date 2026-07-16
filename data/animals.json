@@ -216,6 +216,30 @@
     ]
   },
   {
+    "id": "iller",
+    "namn": "Iller",
+    "latinNamn": "Mustela putorius",
+    "kategori": "Rovdjur",
+    "emoji": "🦨",
+    "beskrivning": "Illern är ett medelstort mårddjur med karakteristisk ansiktsmask. Den lever i södra och mellersta Sveriges odlingslandskap, gärna nära vatten, och är tamillerns (frettens) vilda stamform.",
+    "vikt": "0,5–1,5 kg",
+    "langd": "0,3–0,45 m plus svans",
+    "livslangd": "4–8 år",
+    "habitat": "Odlingslandskap, våtmarker, stränder och gårdsmiljöer",
+    "foda": "Grodor, smågnagare, fåglar, ägg och kaniner",
+    "aktivitet": "Natt",
+    "kannetecken": [
+      "Mörk päls där ljus underull lyser igenom på sidorna",
+      "Vit ansiktsmask kring nos och öron",
+      "Kortare svans än mårdens"
+    ],
+    "fakta": [
+      "Illern är den vilda stamformen till tamillern, fretten.",
+      "Grodor är en viktig del av födan – illern kan hamstra dem i vinterförråd.",
+      "Vid fara kan illern spruta illaluktande sekret från analkörtlarna."
+    ]
+  },
+  {
     "id": "mardhund",
     "namn": "Mårdhund",
     "latinNamn": "Nyctereutes procyonoides",
@@ -624,6 +648,102 @@
     ]
   },
   {
+    "id": "kricka",
+    "namn": "Kricka",
+    "latinNamn": "Anas crecca",
+    "kategori": "Sjöfågel & vadare",
+    "emoji": "🦆",
+    "beskrivning": "Krickan är Europas minsta and. Den häckar vid myrar och småvatten i hela landet och är med sin snabba flykt ett klassiskt byte vid andjakt.",
+    "vikt": "0,25–0,4 kg",
+    "langd": "0,34–0,38 m",
+    "livslangd": "3–8 år",
+    "habitat": "Myrgölar, småvatten, grunda vikar och våtmarker",
+    "foda": "Frön, vattenväxter, insektslarver och små vattendjur",
+    "aktivitet": "Dag och skymning",
+    "kannetecken": [
+      "Mycket liten and med snabb och vig flykt",
+      "Hanen har rostrött huvud med grönt ögonband",
+      "Grön vingspegel hos båda könen"
+    ],
+    "fakta": [
+      "Krickan lyfter nästan lodrätt ur vattnet.",
+      "Flockarna svänger unisont i luften, nästan som vadarflockar.",
+      "Namnet kommer från hanens knirkande läte."
+    ]
+  },
+  {
+    "id": "blasand",
+    "namn": "Bläsand",
+    "latinNamn": "Mareca penelope",
+    "kategori": "Sjöfågel & vadare",
+    "emoji": "🦆",
+    "beskrivning": "Bläsanden är en simand som häckar främst i norra Sveriges våtmarker och drar fram i stora flockar över landet under flyttningen.",
+    "vikt": "0,5–0,9 kg",
+    "langd": "0,42–0,5 m",
+    "livslangd": "3–8 år",
+    "habitat": "Sjöar, myrar och grunda havsvikar",
+    "foda": "Gräs och vattenväxter – betar gärna även på land",
+    "aktivitet": "Dag och skymning",
+    "kannetecken": [
+      "Hanen har rostrött huvud med gräddgul bläs i pannan",
+      "Kort näbb och runt huvud",
+      "Hanens vita vingfält syns tydligt i flykten"
+    ],
+    "fakta": [
+      "Bläsanden betar gräs på stränder och fält mer än någon annan svensk and.",
+      "Hanens visslande läte hörs på långt håll.",
+      "Under höstflyttningen ses tusentals bläsänder längs kusterna."
+    ]
+  },
+  {
+    "id": "knipa",
+    "namn": "Knipa",
+    "latinNamn": "Bucephala clangula",
+    "kategori": "Sjöfågel & vadare",
+    "emoji": "🦆",
+    "beskrivning": "Knipan är en dykand som häckar i trädhål vid skogssjöar i hela landet. Vingarna ger ett karakteristiskt visslande ljud i flykten.",
+    "vikt": "0,6–1,1 kg",
+    "langd": "0,42–0,5 m",
+    "livslangd": "5–10 år",
+    "habitat": "Skogssjöar, vattendrag och kustvatten",
+    "foda": "Vatteninsekter, musslor, snäckor och småfisk",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Hanen svartvit med grönskimrande huvud och rund vit kindfläck",
+      "Gult öga",
+      "Visslande vingljud i flykten"
+    ],
+    "fakta": [
+      "Knipan häckar i trädhål och holkar, ibland tio meter över marken.",
+      "De dygnsgamla ungarna hoppar från boet ner till marken utan att skadas.",
+      "Knipholkar vid skogssjöar är en klassisk viltvårdsåtgärd."
+    ]
+  },
+  {
+    "id": "storskrake",
+    "namn": "Storskrake",
+    "latinNamn": "Mergus merganser",
+    "kategori": "Sjöfågel & vadare",
+    "emoji": "🦆",
+    "beskrivning": "Storskraken är en stor fiskätande dykand med smal sågtandad näbb. Den häckar vid klara sjöar och vattendrag i hela landet.",
+    "vikt": "1,0–2,1 kg",
+    "langd": "0,58–0,68 m",
+    "livslangd": "5–10 år",
+    "habitat": "Klara sjöar, älvar och skärgård",
+    "foda": "Fisk som fångas vid dykning",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Lång strömlinjeformad kropp",
+      "Smal röd näbb med sågtänder som greppar hal fisk",
+      "Hanen vit med mörkgrönt huvud, honan grå med brun nacktofs"
+    ],
+    "fakta": [
+      "Näbbens sågtänder fungerar som en fisktång.",
+      "Honor kan samla ihop stora ungflockar från flera kullar.",
+      "Storskraken tar gärna stora holkar och hålträd som boplats."
+    ]
+  },
+  {
     "id": "kanadagas",
     "namn": "Kanadagås",
     "latinNamn": "Branta canadensis",
@@ -741,6 +861,54 @@
       "Skatan är en av få fågelarter som klarar spegeltestet – den känner igen sig själv.",
       "Skatboet är ett klotformat risbygge med tak och två ingångar.",
       "Gamla skatbon används ofta av andra fåglar, till exempel hornugglor."
+    ]
+  },
+  {
+    "id": "kaja",
+    "namn": "Kaja",
+    "latinNamn": "Corvus monedula",
+    "kategori": "Kråkfåglar",
+    "emoji": "🐦‍⬛",
+    "beskrivning": "Kajan är en liten social kråkfågel som häckar i kolonier nära människan – i skorstenar, kyrktorn och hålträd. Den jagas främst i viltvårdande och skadeförebyggande syfte.",
+    "vikt": "0,2–0,28 kg",
+    "langd": "0,3–0,34 m",
+    "livslangd": "5–10 år",
+    "habitat": "Tätorter, kyrkbyar, parker och odlingslandskap",
+    "foda": "Allätare – insekter, frön, säd, ägg och matrester",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Svart med grå nacke och halssidor",
+      "Ljust silvergrått öga",
+      "Snabba vingslag och kort tjatigt läte – kja!"
+    ],
+    "fakta": [
+      "Kajor bildar par för livet och håller ihop året runt.",
+      "Vintertid samlas tusentals kajor på gemensamma övernattningsplatser.",
+      "Kajan är en skicklig problemlösare som kan öppna enkla luckor och lås."
+    ]
+  },
+  {
+    "id": "notskrika",
+    "namn": "Nötskrika",
+    "latinNamn": "Garrulus glandarius",
+    "kategori": "Kråkfåglar",
+    "emoji": "🐦",
+    "beskrivning": "Nötskrikan är en färgglad och skygg kråkfågel i barr- och blandskog. Bland jägare är den känd som skogens polis eftersom dess varningsskri avslöjar allt som rör sig i skogen.",
+    "vikt": "0,15–0,2 kg",
+    "langd": "0,32–0,36 m",
+    "livslangd": "5–10 år",
+    "habitat": "Barr- och blandskog, gärna med inslag av ek",
+    "foda": "Ekollon, frön, insekter, bär, ägg och fågelungar",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Rosabrun med blått, svartvattrat vingfält",
+      "Vit övergump som lyser i flykten",
+      "Skarpt raspigt varningsskri"
+    ],
+    "fakta": [
+      "Nötskrikan gömmer tusentals ekollon varje höst och hjälper på så vis eken att sprida sig.",
+      "Den härmar skickligt andra fåglar, bland annat ormvråkens skri.",
+      "Varningsskriet gör att både vilt och jägare vet när något är i rörelse."
     ]
   }
 ]

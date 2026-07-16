@@ -212,6 +212,50 @@
         { "lan": ["Y", "Z", "AC", "BD"], "start": "07-16", "slut": "04-30", "beskrivning": "Norra Sverige" },
         { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "S", "T", "U", "W", "X"], "start": "07-01", "slut": "04-15", "beskrivning": "Övriga landet" }
       ]
+    },
+    "iller": {
+      "perioder": [
+        { "lan": ["alla"], "start": "09-01", "slut": "02-28", "beskrivning": "Hela landet" }
+      ]
+    },
+    "kricka": {
+      "not": "I Norrbottens gränsälvsområde gäller särskilda tider.",
+      "perioder": [
+        { "lan": ["I", "K", "M"], "start": "08-21", "slut": "12-31", "beskrivning": "Gotland, Blekinge och Skåne" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "N", "O", "S", "T", "U"], "start": "08-21", "slut": "11-30", "beskrivning": "Mellersta och södra Sverige" },
+        { "lan": ["W", "X", "Y", "Z", "AC", "BD"], "start": "08-25", "slut": "11-30", "beskrivning": "Norra Sverige" }
+      ]
+    },
+    "blasand": {
+      "not": "I Norrbottens gränsälvsområde gäller särskilda tider.",
+      "perioder": [
+        { "lan": ["I", "K", "M"], "start": "08-21", "slut": "12-31", "beskrivning": "Gotland, Blekinge och Skåne" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "N", "O", "S", "T", "U"], "start": "08-21", "slut": "11-30", "beskrivning": "Mellersta och södra Sverige" },
+        { "lan": ["W", "X", "Y", "Z", "AC", "BD"], "start": "08-25", "slut": "11-30", "beskrivning": "Norra Sverige" }
+      ]
+    },
+    "knipa": {
+      "not": "I Norrbottens gränsälvsområde gäller särskilda tider.",
+      "perioder": [
+        { "lan": ["alla"], "start": "08-21", "slut": "01-31", "beskrivning": "Hela landet" }
+      ]
+    },
+    "storskrake": {
+      "not": "I Norrbottens gränsälvsområde gäller särskilda tider.",
+      "perioder": [
+        { "lan": ["alla"], "start": "08-21", "slut": "01-31", "beskrivning": "Hela landet" }
+      ]
+    },
+    "kaja": {
+      "perioder": [
+        { "lan": ["Y", "Z", "AC", "BD"], "start": "07-16", "slut": "04-30", "beskrivning": "Norra Sverige" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "S", "T", "U", "W", "X"], "start": "07-01", "slut": "04-15", "beskrivning": "Övriga landet" }
+      ]
+    },
+    "notskrika": {
+      "perioder": [
+        { "lan": ["alla"], "start": "08-21", "slut": "03-10", "beskrivning": "Hela landet" }
+      ]
     }
   }
 }
