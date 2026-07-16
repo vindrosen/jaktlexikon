@@ -1,41 +1,46 @@
 {
   "sasong": "2025/2026",
-  "kalla": "Förenklad sammanställning baserad på de allmänna jakttiderna i jaktförordningen.",
-  "disclaimer": "Uppgifterna är förenklade och kan innehålla fel eller vara inaktuella. Kontrollera alltid aktuella jakttider och lokala föreskrifter hos Naturvårdsverket och din länsstyrelse innan jakt.",
+  "kalla": "Sammanställning baserad på jaktförordningen (1987:905) bilaga 1–4, kontrollerad mot riksdagens konsoliderade författningstext 2026-07-17.",
+  "disclaimer": "Uppgifterna är förenklade till länsnivå – lokala avvikelser förekommer (t.ex. lappmarksgränsen, gränsälvsområdet, kommunnivå). Licensjakt kräver beslut och tilldelning. Kontrollera alltid aktuella jakttider hos Naturvårdsverket och din länsstyrelse innan jakt.",
   "arter": {
     "alg": {
       "licensjakt": true,
-      "not": "Licensjakt inom älgförvaltningssystemet – tilldelning krävs. Start- och slutdatum varierar lokalt.",
+      "not": "Licensjakt inom älgförvaltningssystemet – tilldelning krävs. Jaktstart 1 september gäller även Torsby kommun i Värmland. Start- och slutdatum kan variera lokalt.",
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y"], "start": "09-01", "slut": "01-31", "beskrivning": "Norra Sverige" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "K", "M", "N", "O", "S", "T", "U", "W", "X"], "start": "10-08", "slut": "01-31", "beskrivning": "Södra och mellersta Sverige" }
+        { "lan": ["W", "X", "Y", "Z", "AC", "BD"], "start": "09-01", "slut": "01-31", "beskrivning": "Norra Sverige" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "K", "M", "N", "O", "S", "T", "U"], "start": "10-08", "slut": "01-31", "beskrivning": "Södra och mellersta Sverige" }
       ]
     },
     "radjur": {
       "perioder": [
+        { "lan": ["alla"], "start": "05-01", "slut": "06-15", "beskrivning": "Hornbärande bock – endast smyg- eller vaktjakt" },
         { "lan": ["alla"], "start": "08-16", "slut": "09-30", "beskrivning": "Endast hornbärande bock" },
+        { "lan": ["alla"], "start": "09-01", "slut": "09-30", "beskrivning": "Kid – endast smyg- eller vaktjakt" },
         { "lan": ["alla"], "start": "10-01", "slut": "01-31", "beskrivning": "Alla djur" }
       ]
     },
     "kronhjort": {
-      "not": "Utanför kronhjortsskötselområde får i regel endast kalv fällas under delar av jakttiden. Särskilda regler gäller i Skåne.",
+      "not": "Utanför kronhjortsskötselområde får endast årskalv fällas. I Skåne beslutar länsstyrelsen om jakttiden inom kronhjortsområden. Delar av jakttiden är begränsad till smyg- eller vaktjakt.",
       "perioder": [
-        { "lan": ["alla"], "start": "08-16", "slut": "01-31", "beskrivning": "Inom kronhjortsskötselområde" }
+        { "lan": ["alla"], "start": "10-08", "slut": "01-31", "beskrivning": "Hjort inom kronhjortsskötselområde" },
+        { "lan": ["alla"], "start": "08-16", "slut": "02-28", "beskrivning": "Hind och kalv inom kronhjortsskötselområde" },
+        { "lan": ["alla"], "start": "08-16", "slut": "01-31", "beskrivning": "Endast årskalv utanför kronhjortsskötselområde" }
       ]
     },
     "dovhjort": {
-      "not": "Jakttiderna skiljer sig mellan hjort, hind och kalv – kontrollera detaljerna före jakt.",
       "perioder": [
-        { "lan": ["alla"], "start": "09-01", "slut": "09-30", "beskrivning": "Endast hornbärande hjort" },
+        { "lan": ["alla"], "start": "09-01", "slut": "09-30", "beskrivning": "Hornbärande hjort och kalv – endast smyg- eller vaktjakt" },
         { "lan": ["alla"], "start": "10-01", "slut": "10-20", "beskrivning": "Alla djur" },
-        { "lan": ["alla"], "start": "11-16", "slut": "02-28", "beskrivning": "Alla djur" }
+        { "lan": ["alla"], "start": "10-21", "slut": "11-15", "beskrivning": "Hind och kalv – endast smyg- eller vaktjakt" },
+        { "lan": ["alla"], "start": "11-16", "slut": "02-28", "beskrivning": "Alla djur" },
+        { "lan": ["alla"], "start": "03-01", "slut": "03-31", "beskrivning": "Hind och kalv – endast smyg- eller vaktjakt" }
       ]
     },
     "vildsvin": {
       "not": "Sugga som åtföljs av smågrisar är alltid fredad.",
       "perioder": [
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "K", "M", "N", "O", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "04-01", "slut": "01-31", "beskrivning": "Vuxna djur" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "K", "M", "N", "O", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "01-01", "slut": "12-31", "beskrivning": "Årsunge – hela året" }
+        { "lan": ["alla"], "start": "04-01", "slut": "01-31", "beskrivning": "Vuxna djur" },
+        { "lan": ["alla"], "start": "01-01", "slut": "12-31", "beskrivning": "Årsunge – hela året" }
       ]
     },
     "falthare": {
@@ -45,57 +50,59 @@
     },
     "skogshare": {
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "09-01", "slut": "02-28", "beskrivning": "Norra och mellersta Sverige" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "T", "U"], "start": "09-01", "slut": "02-15", "beskrivning": "Södra Sverige" }
+        { "lan": ["AB", "C", "K", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "09-01", "slut": "02-28", "beskrivning": "Norra och mellersta Sverige" },
+        { "lan": ["D", "E", "F", "G", "H", "I", "M", "N", "O"], "start": "09-01", "slut": "02-15", "beskrivning": "Södra Sverige" }
       ]
     },
     "vildkanin": {
-      "not": "Förekommer främst i södra Sverige och på Gotland.",
+      "not": "Jakt enligt jaktförordningens bilaga 4 (för att förebygga skada). Förekommer främst i södra Sverige och på Gotland.",
       "perioder": [
         { "lan": ["alla"], "start": "01-01", "slut": "12-31", "beskrivning": "Hela året" }
       ]
     },
     "rodrav": {
+      "not": "I Älvdalens kommun i Dalarna gäller jakttid till 15 april.",
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y"], "start": "08-01", "slut": "04-15", "beskrivning": "Norra Sverige" },
-        { "lan": ["AB", "C", "D", "E", "O", "S", "T", "U", "W", "X"], "start": "08-01", "slut": "03-31", "beskrivning": "Mellersta Sverige" },
-        { "lan": ["F", "G", "H", "I", "K", "M", "N"], "start": "08-01", "slut": "02-28", "beskrivning": "Södra Sverige" }
+        { "lan": ["Y", "Z", "AC", "BD"], "start": "08-01", "slut": "04-15", "beskrivning": "Norra Sverige" },
+        { "lan": ["S", "T", "W", "X"], "start": "08-01", "slut": "03-31", "beskrivning": "Värmland, Örebro, Dalarna och Gävleborg" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "O", "U"], "start": "08-01", "slut": "03-15", "beskrivning": "Övriga mellersta och södra Sverige" },
+        { "lan": ["K", "M", "N"], "start": "08-01", "slut": "02-28", "beskrivning": "Blekinge, Skåne och Halland" }
       ]
     },
     "gravling": {
       "perioder": [
-        { "lan": ["alla"], "start": "08-01", "slut": "02-15", "beskrivning": "Hela landet" }
+        { "lan": ["alla"], "start": "08-01", "slut": "01-31", "beskrivning": "Hela landet" }
       ]
     },
     "mard": {
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "09-01", "slut": "03-31", "beskrivning": "Norra och mellersta Sverige" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "T", "U"], "start": "11-01", "slut": "03-31", "beskrivning": "Södra Sverige" }
+        { "lan": ["S", "W", "X", "Y", "Z", "AC", "BD"], "start": "09-01", "slut": "03-31", "beskrivning": "Norra och mellersta Sverige" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "T", "U"], "start": "09-01", "slut": "02-28", "beskrivning": "Södra Sverige" }
       ]
     },
     "mink": {
-      "not": "Amerikansk mink är en invasiv främmande art.",
+      "not": "Amerikansk mink är en invasiv främmande art. Jakt enligt jaktförordningens bilaga 4 (för att förebygga skada).",
       "perioder": [
         { "lan": ["alla"], "start": "01-01", "slut": "12-31", "beskrivning": "Hela året" }
       ]
     },
     "mardhund": {
-      "not": "Invasiv främmande art – observationer bör rapporteras till Svenska Jägareförbundets mårdhundsprojekt.",
+      "not": "Invasiv främmande art – jakt enligt jaktförordningens bilaga 4. Observationer bör rapporteras till Svenska Jägareförbundets mårdhundsprojekt.",
       "perioder": [
         { "lan": ["alla"], "start": "01-01", "slut": "12-31", "beskrivning": "Hela året" }
       ]
     },
     "baver": {
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W"], "start": "10-01", "slut": "05-15", "beskrivning": "Norra Sverige" },
+        { "lan": ["W", "X", "Y", "Z", "AC", "BD"], "start": "10-01", "slut": "05-15", "beskrivning": "Norra Sverige" },
         { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "S", "T", "U"], "start": "10-01", "slut": "05-10", "beskrivning": "Södra och mellersta Sverige" }
       ]
     },
     "bjorn": {
       "licensjakt": true,
-      "not": "Endast licensjakt med länsvis tilldelning. Jakten avlyses i respektive område när tilldelningen är fylld.",
+      "not": "Endast licensjakt med länsvis tilldelning enligt länsstyrelsens beslut. Jakten avlyses i respektive område när tilldelningen är fylld.",
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "08-21", "slut": "10-15", "beskrivning": "Län med björnstam" }
+        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "08-21", "slut": "10-15", "beskrivning": "Län med björnstam, vid beslutad licensjakt" }
       ]
     },
     "varg": {
@@ -107,34 +114,36 @@
     },
     "lodjur": {
       "licensjakt": true,
-      "not": "Endast licensjakt med länsvis tilldelning.",
+      "not": "Endast licensjakt med länsvis tilldelning enligt länsstyrelsens beslut.",
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y"], "start": "03-01", "slut": "04-15", "beskrivning": "Norra Sverige" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "S", "T", "U", "W", "X"], "start": "03-01", "slut": "03-31", "beskrivning": "Södra och mellersta Sverige" }
+        { "lan": ["BD", "AC", "Z", "Y"], "start": "03-01", "slut": "04-15", "beskrivning": "Norra Sverige, vid beslutad licensjakt" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "S", "T", "U", "W", "X"], "start": "03-01", "slut": "03-31", "beskrivning": "Södra och mellersta Sverige, vid beslutad licensjakt" }
       ]
     },
     "grasand": {
+      "not": "I Norrbottens gränsälvsområde gäller särskilda tider.",
       "perioder": [
-        { "lan": ["M", "K", "N", "I"], "start": "08-21", "slut": "12-31", "beskrivning": "Södra kustlänen" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "O", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "08-21", "slut": "11-30", "beskrivning": "Övriga landet" }
+        { "lan": ["I", "K", "M"], "start": "08-21", "slut": "12-31", "beskrivning": "Gotland, Blekinge och Skåne" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "N", "O", "S", "T", "U"], "start": "08-21", "slut": "11-30", "beskrivning": "Mellersta och södra Sverige" },
+        { "lan": ["W", "X", "Y", "Z", "AC", "BD"], "start": "08-25", "slut": "11-30", "beskrivning": "Norra Sverige" }
       ]
     },
     "kanadagas": {
+      "not": "I Norrbottens gränsälvsområde gäller särskilda tider.",
       "perioder": [
-        { "lan": ["M", "K", "N", "I", "AB", "C", "D", "E", "O"], "start": "08-11", "slut": "01-31", "beskrivning": "Södra och östra Sverige" },
-        { "lan": ["F", "G", "H", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "08-11", "slut": "12-31", "beskrivning": "Övriga landet" }
+        { "lan": ["alla"], "start": "08-11", "slut": "01-31", "beskrivning": "Hela landet" }
       ]
     },
     "gragas": {
+      "not": "I Norrbottens gränsälvsområde gäller särskilda tider.",
       "perioder": [
-        { "lan": ["M", "K", "N", "I"], "start": "08-11", "slut": "12-31", "beskrivning": "Södra kustlänen" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "O", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "08-21", "slut": "11-30", "beskrivning": "Övriga landet" }
+        { "lan": ["alla"], "start": "08-11", "slut": "01-31", "beskrivning": "Hela landet" }
       ]
     },
     "ringduva": {
       "perioder": [
-        { "lan": ["M", "K"], "start": "08-01", "slut": "10-31", "beskrivning": "Skåne och Blekinge" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "N", "O", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "08-16", "slut": "10-31", "beskrivning": "Övriga landet" }
+        { "lan": ["W", "X", "Y", "Z", "AC", "BD"], "start": "08-01", "slut": "12-31", "beskrivning": "Norra Sverige" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "S", "T", "U"], "start": "08-16", "slut": "12-31", "beskrivning": "Övriga landet" }
       ]
     },
     "fasan": {
@@ -145,57 +154,63 @@
     "rapphona": {
       "not": "Jakt bör endast ske på stabila lokala bestånd.",
       "perioder": [
-        { "lan": ["M"], "start": "09-16", "slut": "11-15", "beskrivning": "Skåne" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "N", "O", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "09-16", "slut": "10-31", "beskrivning": "Övriga landet" }
+        { "lan": ["alla"], "start": "09-16", "slut": "11-30", "beskrivning": "Hela landet" }
       ]
     },
     "tjader": {
+      "not": "På Gotland saknas allmän jakttid. I Skåne gäller särskilda regler.",
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "08-25", "slut": "11-15", "beskrivning": "Norra och mellersta Sverige – alla fåglar" },
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "11-16", "slut": "01-31", "beskrivning": "Endast tupp" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "T", "U"], "start": "08-25", "slut": "11-15", "beskrivning": "Södra Sverige – alla fåglar" }
+        { "lan": ["AB", "C", "D", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "08-25", "slut": "11-15", "beskrivning": "Norra och mellersta Sverige – alla fåglar" },
+        { "lan": ["AB", "C", "D", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "11-16", "slut": "02-15", "beskrivning": "Endast tupp" },
+        { "lan": ["E", "F", "G", "H", "K", "N", "O"], "start": "08-25", "slut": "09-30", "beskrivning": "Södra Sverige – alla fåglar" },
+        { "lan": ["E", "F", "G", "H", "K", "N", "O"], "start": "01-01", "slut": "01-31", "beskrivning": "Endast tupp" }
       ]
     },
     "orre": {
+      "not": "På Gotland saknas allmän jakttid. I Skåne gäller särskilda regler.",
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "08-25", "slut": "11-15", "beskrivning": "Norra och mellersta Sverige – alla fåglar" },
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "11-16", "slut": "01-31", "beskrivning": "Endast tupp" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "T", "U"], "start": "08-25", "slut": "11-15", "beskrivning": "Södra Sverige – alla fåglar" }
+        { "lan": ["AB", "C", "D", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "08-25", "slut": "11-15", "beskrivning": "Norra och mellersta Sverige – alla fåglar" },
+        { "lan": ["AB", "C", "D", "S", "T", "U", "W", "X", "Y", "Z", "AC", "BD"], "start": "11-16", "slut": "02-15", "beskrivning": "Endast tupp" },
+        { "lan": ["E", "F", "G", "H", "K", "N", "O"], "start": "08-25", "slut": "09-30", "beskrivning": "Södra Sverige – alla fåglar" },
+        { "lan": ["E", "F", "G", "H", "K", "N", "O"], "start": "01-01", "slut": "01-31", "beskrivning": "Endast tupp" }
       ]
     },
     "jarpe": {
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "08-25", "slut": "11-15", "beskrivning": "Norra och mellersta Sverige" }
+        { "lan": ["S", "W", "X", "Y", "Z", "AC", "BD"], "start": "08-25", "slut": "11-15", "beskrivning": "Norra och mellersta Sverige" }
       ]
     },
     "dalripa": {
-      "not": "Jakttiden varierar med område, bland annat ovan och nedan lappmarksgränsen.",
+      "not": "Nedanför lappmarksgränsen i Västerbotten och Norrbotten gäller jakttid till 15 februari.",
       "perioder": [
-        { "lan": ["BD", "AC"], "start": "08-25", "slut": "03-15", "beskrivning": "Norrbotten och Västerbotten" },
-        { "lan": ["Z", "W"], "start": "08-25", "slut": "02-28", "beskrivning": "Jämtland och Dalarna" }
+        { "lan": ["AC", "BD"], "start": "08-25", "slut": "03-15", "beskrivning": "Ovanför lappmarksgränsen" },
+        { "lan": ["Z"], "start": "08-25", "slut": "02-28", "beskrivning": "Jämtlands län" },
+        { "lan": ["W"], "start": "08-25", "slut": "02-15", "beskrivning": "Dalarna (Älvdalens kommun till 28 feb)" }
       ]
     },
     "fjallripa": {
+      "not": "Nedanför lappmarksgränsen i Västerbotten och Norrbotten gäller jakttid till 15 februari.",
       "perioder": [
-        { "lan": ["BD", "AC"], "start": "08-25", "slut": "03-15", "beskrivning": "Norrbotten och Västerbotten" },
-        { "lan": ["Z"], "start": "08-25", "slut": "02-28", "beskrivning": "Jämtland" }
+        { "lan": ["AC", "BD"], "start": "08-25", "slut": "03-15", "beskrivning": "Ovanför lappmarksgränsen" },
+        { "lan": ["Z"], "start": "08-25", "slut": "02-28", "beskrivning": "Jämtlands län" },
+        { "lan": ["W"], "start": "08-25", "slut": "02-15", "beskrivning": "Dalarna (Älvdalens kommun till 28 feb)" }
       ]
     },
     "morkulla": {
       "perioder": [
-        { "lan": ["alla"], "start": "08-21", "slut": "11-30", "beskrivning": "Hela landet" }
+        { "lan": ["alla"], "start": "09-11", "slut": "12-31", "beskrivning": "Hela landet" }
       ]
     },
     "kraka": {
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "07-01", "slut": "04-15", "beskrivning": "Norra och mellersta Sverige" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "T", "U"], "start": "07-01", "slut": "03-31", "beskrivning": "Södra Sverige" }
+        { "lan": ["Y", "Z", "AC", "BD"], "start": "07-16", "slut": "04-30", "beskrivning": "Norra Sverige" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "S", "T", "U", "W", "X"], "start": "07-01", "slut": "04-15", "beskrivning": "Övriga landet" }
       ]
     },
     "skata": {
       "perioder": [
-        { "lan": ["BD", "AC", "Z", "Y", "X", "W", "S"], "start": "07-01", "slut": "04-15", "beskrivning": "Norra och mellersta Sverige" },
-        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "T", "U"], "start": "07-01", "slut": "03-31", "beskrivning": "Södra Sverige" }
+        { "lan": ["Y", "Z", "AC", "BD"], "start": "07-16", "slut": "04-30", "beskrivning": "Norra Sverige" },
+        { "lan": ["AB", "C", "D", "E", "F", "G", "H", "I", "K", "M", "N", "O", "S", "T", "U", "W", "X"], "start": "07-01", "slut": "04-15", "beskrivning": "Övriga landet" }
       ]
     }
   }

@@ -49,9 +49,12 @@ docs/superpowers/specs/  Designdokument
 
 ## Viktigt om jakttiderna ⚠️
 
-Jakttiderna i `data/jakttider.json` är en **förenklad sammanställning** och
-kan innehålla fel eller vara inaktuella. Kontrollera alltid aktuella
-jakttider och lokala föreskrifter hos
+Jakttiderna i `data/jakttider.json` är kontrollerade mot **jaktförordningen
+(1987:905) bilaga 1–4** (riksdagens konsoliderade text, 2026-07-17) men är
+**förenklade till länsnivå**. Lokala avvikelser förekommer – t.ex.
+lappmarksgränsen, Norrbottens gränsälvsområde och kommunspecifika regler
+(Torsby, Älvdalen). Licensjakt (älg, björn, varg, lodjur) kräver beslut och
+tilldelning och kan avlysas. Kontrollera alltid aktuella jakttider hos
 [Naturvårdsverket](https://www.naturvardsverket.se) och din länsstyrelse
 innan jakt.
 
