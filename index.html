@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sveriges Jaktlexikon – fakta om svenska jaktbara arter och aktuella jakttider." />
+  <meta name="theme-color" content="#16281c" />
+  <title>Sveriges Jaktlexikon</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🫎</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/">
+        <span class="brand-badge" aria-hidden="true">🦌</span>
+        Sveriges Jaktlexikon
+      </a>
+      <nav class="top-nav" aria-label="Huvudmeny">
+        <a href="#/" data-nav="home">Hem</a>
+        <a href="#/jakttider" data-nav="jakttider">Jakttider</a>
+        <a href="#/favoriter" data-nav="favoriter">Favoriter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" aria-live="polite">
+    <div class="empty-state" style="margin-top:2rem">Laddar…</div>
+  </main>
+
+  <footer class="site-footer">
+    Sveriges Jaktlexikon · version 1 ·
+    Kontrollera alltid aktuella jakttider hos Naturvårdsverket och din länsstyrelse.
+  </footer>
+
+  <nav class="bottom-nav" aria-label="Mobilmeny">
+    <a href="#/" data-nav="home"><span class="icon" aria-hidden="true">🏠</span>Hem</a>
+    <a href="#/jakttider" data-nav="jakttider"><span class="icon" aria-hidden="true">📅</span>Jakttider</a>
+    <a href="#/favoriter" data-nav="favoriter"><span class="icon" aria-hidden="true">❤️</span>Favoriter</a>
+  </nav>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

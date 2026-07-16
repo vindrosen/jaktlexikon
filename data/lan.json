@@ -1,0 +1,23 @@
+[
+  { "kod": "AB", "namn": "Stockholms län" },
+  { "kod": "C",  "namn": "Uppsala län" },
+  { "kod": "D",  "namn": "Södermanlands län" },
+  { "kod": "E",  "namn": "Östergötlands län" },
+  { "kod": "F",  "namn": "Jönköpings län" },
+  { "kod": "G",  "namn": "Kronobergs län" },
+  { "kod": "H",  "namn": "Kalmar län" },
+  { "kod": "I",  "namn": "Gotlands län" },
+  { "kod": "K",  "namn": "Blekinge län" },
+  { "kod": "M",  "namn": "Skåne län" },
+  { "kod": "N",  "namn": "Hallands län" },
+  { "kod": "O",  "namn": "Västra Götalands län" },
+  { "kod": "S",  "namn": "Värmlands län" },
+  { "kod": "T",  "namn": "Örebro län" },
+  { "kod": "U",  "namn": "Västmanlands län" },
+  { "kod": "W",  "namn": "Dalarnas län" },
+  { "kod": "X",  "namn": "Gävleborgs län" },
+  { "kod": "Y",  "namn": "Västernorrlands län" },
+  { "kod": "Z",  "namn": "Jämtlands län" },
+  { "kod": "AC", "namn": "Västerbottens län" },
+  { "kod": "BD", "namn": "Norrbottens län" }
+]

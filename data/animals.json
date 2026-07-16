@@ -1,0 +1,746 @@
+[
+  {
+    "id": "alg",
+    "namn": "Älg",
+    "latinNamn": "Alces alces",
+    "kategori": "Klövvilt",
+    "emoji": "🫎",
+    "beskrivning": "Älgen är vårt största hjortdjur och kallas ofta skogens konung. Den finns i nästan hela Sverige och är främst aktiv i gryning och skymning.",
+    "vikt": "200–550 kg",
+    "langd": "2,4–3,1 m",
+    "livslangd": "15–20 år",
+    "habitat": "Skog, myrmarker, sjöar och vattendrag",
+    "foda": "Skott, löv, kvistar, ljung, bärris och vattenväxter",
+    "aktivitet": "Gryning och skymning",
+    "kannetecken": [
+      "Mycket stor kroppshydda med lång mule och skäggliknande hudflik (klocka) under halsen",
+      "Tjuren bär skovel- eller stånghorn som fälls varje vinter",
+      "Gråbrun till mörkbrun päls med ljusa ben"
+    ],
+    "fakta": [
+      "En älgtjur kan ha horn som väger över 20 kg.",
+      "Älgen är en skicklig simmare och kan dyka efter vattenväxter.",
+      "Sverige har en av världens tätaste älgstammar – cirka 300 000 djur före jakt."
+    ]
+  },
+  {
+    "id": "radjur",
+    "namn": "Rådjur",
+    "latinNamn": "Capreolus capreolus",
+    "kategori": "Klövvilt",
+    "emoji": "🦌",
+    "beskrivning": "Rådjuret är Sveriges minsta och vanligaste hjortdjur. Det trivs i mosaiklandskap med skog och öppna marker och syns ofta i gryning och skymning.",
+    "vikt": "20–35 kg",
+    "langd": "0,95–1,35 m",
+    "livslangd": "10–12 år",
+    "habitat": "Skogsbryn, åkermark, trädgårdar och blandskog",
+    "foda": "Örter, knoppar, skott, bärris, svamp och grödor",
+    "aktivitet": "Gryning och skymning",
+    "kannetecken": [
+      "Liten och nätt med rödbrun sommarpäls och gråbrun vinterpäls",
+      "Vit akterspegel som syns tydligt vid flykt",
+      "Bocken bär små horn med normalt två till tre taggar per stång"
+    ],
+    "fakta": [
+      "Rådjursgeten kan fördröja fostrets utveckling – parning sker i augusti men killingarna föds först i maj–juni.",
+      "Killingarna ligger gömda i vegetationen de första veckorna och ska aldrig röras.",
+      "Rådjurets skall låter som ett hest hundskall och används som varningsläte."
+    ]
+  },
+  {
+    "id": "kronhjort",
+    "namn": "Kronhjort",
+    "latinNamn": "Cervus elaphus",
+    "kategori": "Klövvilt",
+    "emoji": "🦌",
+    "beskrivning": "Kronhjorten är vårt näst största hjortdjur. Den kraftfulla hjortens brölande under brunsten i september är ett av naturens mäktigaste ljud.",
+    "vikt": "90–240 kg",
+    "langd": "1,6–2,3 m",
+    "livslangd": "12–18 år",
+    "habitat": "Större sammanhängande skogar med tillgång till öppna betesmarker",
+    "foda": "Gräs, örter, ljung, bärris, knoppar och bark",
+    "aktivitet": "Främst natt, gryning och skymning",
+    "kannetecken": [
+      "Stor och högrest med gulbrun till rödbrun päls",
+      "Hjorten bär stora grenade horn som kan få krona i toppen",
+      "Ljus gulaktig akterspegel och kort svans"
+    ],
+    "fakta": [
+      "Den svenska ursprungsstammen av kronhjort finns i Skåne och har särskilt skydd.",
+      "Under brunsten kan en hjort tappa uppemot 20 procent av sin kroppsvikt.",
+      "Kronhjortens horn kan väga över 10 kg och fälls varje vår."
+    ]
+  },
+  {
+    "id": "dovhjort",
+    "namn": "Dovhjort",
+    "latinNamn": "Dama dama",
+    "kategori": "Klövvilt",
+    "emoji": "🦌",
+    "beskrivning": "Dovhjorten infördes till Sverige redan på 1500-talet och är idag vanlig i södra och mellersta Sverige. Den lever ofta i stora hjordar i öppna landskap.",
+    "vikt": "40–100 kg",
+    "langd": "1,3–1,7 m",
+    "livslangd": "12–16 år",
+    "habitat": "Öppna lövskogar, parklandskap och jordbruksbygd",
+    "foda": "Gräs, örter, ollon, knoppar och grödor",
+    "aktivitet": "Dygnet runt, mest gryning och skymning",
+    "kannetecken": [
+      "Ofta fläckig rödbrun päls, men färgen varierar från vit till nästan svart",
+      "Hjorten bär breda skovelformade horn",
+      "Lång svans med svart ovansida som viftas ständigt"
+    ],
+    "fakta": [
+      "Dovhjorten kom till Sverige som parkdjur hos kungligheter och adel.",
+      "Under brunsten samlar hjortarna harem på traditionella brunstplatser.",
+      "En skrämd dovhjort kan studsa fram med alla fyra benen samtidigt – det kallas prong."
+    ]
+  },
+  {
+    "id": "vildsvin",
+    "namn": "Vildsvin",
+    "latinNamn": "Sus scrofa",
+    "kategori": "Klövvilt",
+    "emoji": "🐗",
+    "beskrivning": "Vildsvinet återkom till den svenska faunan på 1970-talet och har sedan dess spridit sig snabbt. Det är ett intelligent och nattaktivt djur som lever i familjegrupper.",
+    "vikt": "50–200 kg",
+    "langd": "0,9–1,8 m",
+    "livslangd": "8–12 år",
+    "habitat": "Löv- och blandskog nära jordbruksmark, gärna med täta snår",
+    "foda": "Allätare – rötter, ollon, mask, grödor, smådjur och as",
+    "aktivitet": "Främst natt",
+    "kannetecken": [
+      "Kraftig framtung kropp med borstig gråsvart päls",
+      "Galten har synliga betar i underkäken",
+      "Randiga kultingar de första månaderna"
+    ],
+    "fakta": [
+      "Vildsvin kan springa i 40 km/h och simmar utmärkt.",
+      "Suggorna i en grupp föder ofta kultingar samtidigt och hjälps åt med uppfödningen.",
+      "Vildsvinets bök i marken gynnar många växter – men skapar konflikter med lantbruket."
+    ]
+  },
+  {
+    "id": "rodrav",
+    "namn": "Rödräv",
+    "latinNamn": "Vulpes vulpes",
+    "kategori": "Rovdjur",
+    "emoji": "🦊",
+    "beskrivning": "Rödräven är vårt vanligaste vilda hunddjur och finns i hela landet, från fjäll till storstad. Den är anpassningsbar och klarar sig i de flesta miljöer.",
+    "vikt": "5–10 kg",
+    "langd": "0,9–1,2 m inkl. svans",
+    "livslangd": "3–6 år (upp till 10)",
+    "habitat": "Alla naturtyper – skog, odlingslandskap och tätorter",
+    "foda": "Sork, kanin, harungar, fåglar, ägg, bär och avfall",
+    "aktivitet": "Främst natt, gryning och skymning",
+    "kannetecken": [
+      "Rostöd päls med vit buk och svarta ben",
+      "Lång yvig svans med vit spets",
+      "Spetsig nos och upprättstående öron"
+    ],
+    "fakta": [
+      "Rävens skall och skrik hörs ofta under parningstiden i januari–februari.",
+      "Räven ordnar skafferi – överskottsmat grävs ner och hämtas senare.",
+      "Rävskabb slog hårt mot stammen på 1980-talet men räven har återhämtat sig."
+    ]
+  },
+  {
+    "id": "gravling",
+    "namn": "Grävling",
+    "latinNamn": "Meles meles",
+    "kategori": "Rovdjur",
+    "emoji": "🦡",
+    "beskrivning": "Grävlingen är vårt största mårddjur. Den lever i familjegrupper i stora grytsystem som kan användas i generationer.",
+    "vikt": "8–17 kg",
+    "langd": "0,6–0,8 m",
+    "livslangd": "5–8 år",
+    "habitat": "Skogsbryn, hagmark och odlingslandskap med grävbar mark",
+    "foda": "Daggmask, insekter, sniglar, smågnagare, bär och säd",
+    "aktivitet": "Natt",
+    "kannetecken": [
+      "Kraftig låg kropp med gråmelerad päls",
+      "Karakteristiskt svartvitrandigt huvud",
+      "Korta kraftiga ben med långa grävklor"
+    ],
+    "fakta": [
+      "Ett grävlingsgryt kan ha över 30 ingångar och användas i över hundra år.",
+      "Grävlingen sover vintersömn men vaknar och rör sig under milda perioder.",
+      "En grävling kan äta flera hundra daggmaskar på en natt."
+    ]
+  },
+  {
+    "id": "mard",
+    "namn": "Skogsmård",
+    "latinNamn": "Martes martes",
+    "kategori": "Rovdjur",
+    "emoji": "🐾",
+    "beskrivning": "Skogsmården är en skicklig klättrare som lever i äldre barr- och blandskog. Den är skygg och nattaktiv och ses därför sällan.",
+    "vikt": "0,8–1,8 kg",
+    "langd": "0,45–0,55 m plus svans",
+    "livslangd": "5–10 år",
+    "habitat": "Äldre sammanhängande skog med hålträd",
+    "foda": "Sork, ekorre, fåglar, ägg, bär och insekter",
+    "aktivitet": "Natt och skymning",
+    "kannetecken": [
+      "Slank kropp med chokladbrun päls",
+      "Gulorange strupfläck",
+      "Lång yvig svans och stora hårklädda tassar"
+    ],
+    "fakta": [
+      "Mården kan förfölja ekorrar i trädkronorna i full fart.",
+      "Den övertar gärna gamla rovfågelbon och ekorrbon som viloplatser.",
+      "Mårdskinn var under medeltiden ett av Sveriges viktigaste handelsvaror."
+    ]
+  },
+  {
+    "id": "mink",
+    "namn": "Mink",
+    "latinNamn": "Neogale vison",
+    "kategori": "Rovdjur",
+    "emoji": "🦦",
+    "beskrivning": "Den amerikanska minken rymde från pälsfarmer under 1900-talet och är idag etablerad i hela landet. Den är en invasiv art som gör stor skada på sjöfågel.",
+    "vikt": "0,7–1,6 kg",
+    "langd": "0,3–0,45 m plus svans",
+    "livslangd": "3–6 år",
+    "habitat": "Stränder vid sjöar, vattendrag, kust och skärgård",
+    "foda": "Fisk, kräftor, grodor, sjöfågel, ägg och smågnagare",
+    "aktivitet": "Natt och skymning, ofta även dagtid",
+    "kannetecken": [
+      "Mörkbrun till nästan svart päls",
+      "Vit haklapp och liten vit fläck på bröstet",
+      "Simmar lågt i vattnet med bara huvudet synligt"
+    ],
+    "fakta": [
+      "Minken är en av de största orsakerna till misslyckade häckningar i skärgårdens fågelkolonier.",
+      "Den kan dyka flera meter djupt efter fisk.",
+      "Jakt på mink är tillåten året runt eftersom den är en invasiv främmande art."
+    ]
+  },
+  {
+    "id": "mardhund",
+    "namn": "Mårdhund",
+    "latinNamn": "Nyctereutes procyonoides",
+    "kategori": "Rovdjur",
+    "emoji": "🦝",
+    "beskrivning": "Mårdhunden är ett invasivt hunddjur från Ostasien som sprider sig in i norra Sverige från Finland. Observationer ska rapporteras.",
+    "vikt": "4–10 kg",
+    "langd": "0,5–0,7 m plus svans",
+    "livslangd": "3–7 år",
+    "habitat": "Fuktiga marker, vassar, strandskogar och myrar",
+    "foda": "Allätare – grodor, ägg, smågnagare, bär, as och insekter",
+    "aktivitet": "Natt",
+    "kannetecken": [
+      "Ser ut som en korsning mellan tvättbjörn och räv",
+      "Mörk ansiktsmask och yvig gråbrun päls",
+      "Korta ben och kort svans"
+    ],
+    "fakta": [
+      "Mårdhunden är det enda hunddjuret som sover vintersömn.",
+      "Ett par mårdhundar kan få över 10 valpar per kull.",
+      "I Sverige bekämpas arten med hjälp av GPS-märkta så kallade judasdjur."
+    ]
+  },
+  {
+    "id": "bjorn",
+    "namn": "Brunbjörn",
+    "latinNamn": "Ursus arctos",
+    "kategori": "Rovdjur",
+    "emoji": "🐻",
+    "beskrivning": "Brunbjörnen är Sveriges största rovdjur. Stammen finns främst i norra och mellersta Sverige och jagas genom licensjakt med strikt tilldelning.",
+    "vikt": "60–350 kg",
+    "langd": "1,3–2,3 m",
+    "livslangd": "20–30 år",
+    "habitat": "Stora sammanhängande barrskogar och fjällnära skog",
+    "foda": "Bär, myror, örter, älgkalvar, ren och as",
+    "aktivitet": "Gryning, skymning och natt",
+    "kannetecken": [
+      "Massiv kropp med tydlig puckel över bogen",
+      "Päls från ljust gulbrun till mörkbrun",
+      "Korta rundade öron och kraftiga klor"
+    ],
+    "fakta": [
+      "En björn kan äta en tredjedel av sin årsranson bär på hösten – uppåt 100 000 blåbär per dag.",
+      "Björnen sover i ide från oktober–november till mars–april.",
+      "Honan föder ungarna i idet mitt i vintern – de väger då bara ett halvt kilo."
+    ]
+  },
+  {
+    "id": "lodjur",
+    "namn": "Lodjur",
+    "latinNamn": "Lynx lynx",
+    "kategori": "Rovdjur",
+    "emoji": "🐆",
+    "beskrivning": "Lodjuret är Europas största kattdjur och vårt enda vilda kattdjur. Det är en utpräglad smygjägare som främst tar rådjur och ren.",
+    "vikt": "15–25 kg",
+    "langd": "0,8–1,2 m",
+    "livslangd": "10–15 år",
+    "habitat": "Kuperad skogsterräng i hela landet",
+    "foda": "Rådjur, ren, hare, skogsfågel och smågnagare",
+    "aktivitet": "Natt, gryning och skymning",
+    "kannetecken": [
+      "Högbent katt med kort stubbsvans med svart spets",
+      "Tofsar på öronen och tydliga polisonger",
+      "Fläckig gråbrun till rödbrun päls"
+    ],
+    "fakta": [
+      "Lodjuret kan se en sork på 75 meters håll i svagt ljus.",
+      "Ett lodjur vandrar ofta över en mil per natt inom sitt revir.",
+      "Jakten är strikt reglerad licensjakt och stammen inventeras varje vinter."
+    ]
+  },
+  {
+    "id": "varg",
+    "namn": "Varg",
+    "latinNamn": "Canis lupus",
+    "kategori": "Rovdjur",
+    "emoji": "🐺",
+    "beskrivning": "Vargen lever i familjegrupper (revir) främst i mellersta Sverige. Jakt sker endast som strikt reglerad licens- eller skyddsjakt.",
+    "vikt": "30–50 kg",
+    "langd": "1,0–1,5 m plus svans",
+    "livslangd": "8–13 år",
+    "habitat": "Stora skogsområden med god tillgång på klövvilt",
+    "foda": "Älg, rådjur, ren, bäver och mindre däggdjur",
+    "aktivitet": "Främst natt och gryning",
+    "kannetecken": [
+      "Större och mer högbent än en schäfer",
+      "Grågul päls med mörk mantel och ljus mask",
+      "Rak hängande svans, ofta med svart spets"
+    ],
+    "fakta": [
+      "Ett vargrevir i Skandinavien är i snitt cirka 1 000 kvadratkilometer.",
+      "Vargens ylande kan höras på en mils avstånd.",
+      "Den skandinaviska vargstammen inventeras noggrant varje vinter med DNA-analys av spillning."
+    ]
+  },
+  {
+    "id": "falthare",
+    "namn": "Fälthare",
+    "latinNamn": "Lepus europaeus",
+    "kategori": "Smådjur",
+    "emoji": "🐇",
+    "beskrivning": "Fältharen infördes till Sverige på 1800-talet och trivs i det öppna odlingslandskapet i södra och mellersta Sverige.",
+    "vikt": "3,5–6 kg",
+    "langd": "0,5–0,7 m",
+    "livslangd": "3–7 år",
+    "habitat": "Åkermark, betesmarker och öppna fält",
+    "foda": "Gräs, örter, grödor, knoppar och bark",
+    "aktivitet": "Natt, gryning och skymning",
+    "kannetecken": [
+      "Större än skogsharen med längre öron med svarta spetsar",
+      "Gulbrun päls året om – blir aldrig vit",
+      "Mycket långa kraftfulla bakben"
+    ],
+    "fakta": [
+      "Fältharen kan nå 60 km/h och slår tvära krokar för att skaka av sig förföljare.",
+      "Honan kan vara dräktig med två kullar samtidigt – så kallad superfetation.",
+      "Ungarna föds fullt pälsklädda med öppna ögon."
+    ]
+  },
+  {
+    "id": "skogshare",
+    "namn": "Skogshare",
+    "latinNamn": "Lepus timidus",
+    "kategori": "Smådjur",
+    "emoji": "🐰",
+    "beskrivning": "Skogsharen är vår ursprungliga hare och finns i hela landet. På vintern byter den till vit päls som kamouflage i snön.",
+    "vikt": "2–4 kg",
+    "langd": "0,45–0,6 m",
+    "livslangd": "3–7 år",
+    "habitat": "Barr- och blandskog, myrmarker och fjäll",
+    "foda": "Ris, kvistar, bark, gräs och örter",
+    "aktivitet": "Natt, gryning och skymning",
+    "kannetecken": [
+      "Gråbrun sommarpäls som blir helvit på vintern",
+      "Kortare öron än fältharen",
+      "Breda hårklädda tassar som fungerar som snöskor"
+    ],
+    "fakta": [
+      "Skogsharens vintervita päls styrs av dagslängden, inte av snötillgången.",
+      "I södra Sverige trängs skogsharen undan av fältharen och klimatförändringen.",
+      "Haren trycker hårt in i det sista och rusar sedan iväg – därav uttrycket att en hare går upp."
+    ]
+  },
+  {
+    "id": "vildkanin",
+    "namn": "Vildkanin",
+    "latinNamn": "Oryctolagus cuniculus",
+    "kategori": "Smådjur",
+    "emoji": "🐇",
+    "beskrivning": "Vildkaninen finns främst i Skåne och på Gotland samt lokalt i andra delar av södra Sverige. Den lever i kolonier i grävda gångsystem.",
+    "vikt": "1–2,5 kg",
+    "langd": "0,35–0,5 m",
+    "livslangd": "2–5 år",
+    "habitat": "Sandiga marker, parker, golfbanor och odlingslandskap",
+    "foda": "Gräs, örter, grönsaker, bark och knoppar",
+    "aktivitet": "Gryning och skymning",
+    "kannetecken": [
+      "Mindre än haren med kortare öron utan svarta spetsar",
+      "Gråbrun päls med ljusare buk",
+      "Springer med kroppen lågt och rakt in i hålet vid fara"
+    ],
+    "fakta": [
+      "En kaninhona kan få över 20 ungar per år.",
+      "Kaninpest (myxomatos) slår återkommande hårt mot bestånden.",
+      "Vildkaninen kom till Sverige som tamdjur och förvildades i början av 1900-talet."
+    ]
+  },
+  {
+    "id": "baver",
+    "namn": "Bäver",
+    "latinNamn": "Castor fiber",
+    "kategori": "Smådjur",
+    "emoji": "🦫",
+    "beskrivning": "Bävern är Europas största gnagare och en skicklig byggmästare som fäller träd och bygger dammar och hyddor. Den utrotades i Sverige på 1800-talet men återinplanterades framgångsrikt.",
+    "vikt": "15–30 kg",
+    "langd": "0,7–1,0 m plus svans",
+    "livslangd": "10–15 år",
+    "habitat": "Sjöar och vattendrag med lövskog längs stränderna",
+    "foda": "Bark, kvistar, vattenväxter och örter – främst asp, sälg och björk",
+    "aktivitet": "Natt och skymning",
+    "kannetecken": [
+      "Kraftig kropp med tät brun päls",
+      "Bred fjällig platt svans",
+      "Stora orangefärgade framtänder"
+    ],
+    "fakta": [
+      "Bävern varnar familjen genom att smälla svansen i vattenytan.",
+      "En bäverdamm kan bli över hundra meter lång.",
+      "Alla svenska bävrar härstammar från cirka 80 norska djur som sattes ut på 1920–30-talen."
+    ]
+  },
+  {
+    "id": "tjader",
+    "namn": "Tjäder",
+    "latinNamn": "Tetrao urogallus",
+    "kategori": "Skogsfågel",
+    "emoji": "🦃",
+    "beskrivning": "Tjädern är vår största hönsfågel och en karaktärsart för gammal tallskog. Tuppens spel på våren är ett klassiskt inslag i den svenska skogen.",
+    "vikt": "Tupp 3,5–5 kg, höna 1,5–2 kg",
+    "langd": "0,55–0,9 m",
+    "livslangd": "5–10 år",
+    "habitat": "Äldre barrskog med inslag av myrar och bärris",
+    "foda": "Tallbarr på vintern, annars bär, knoppar, löv och insekter",
+    "aktivitet": "Dag, spel i gryningen",
+    "kannetecken": [
+      "Tuppen är svart med grön bröstglans, röd ögonbrynsfläck och stor stjärt",
+      "Hönan är rostbrun och tecknad för kamouflage",
+      "Tung bullrig flykt genom skogen"
+    ],
+    "fakta": [
+      "Tjäderspelet sker på samma spelplatser år efter år, ofta i generationer.",
+      "Tuppen kan under spelet bli så uppspelt att den attackerar människor.",
+      "Vintertid sitter tjädern ofta i samma tall flera dagar och äter barr."
+    ]
+  },
+  {
+    "id": "orre",
+    "namn": "Orre",
+    "latinNamn": "Lyrurus tetrix",
+    "kategori": "Skogsfågel",
+    "emoji": "🐦‍⬛",
+    "beskrivning": "Orren är en medelstor hönsfågel som spelar i grupp på myrar och isar i gryningen. Dess bubblande spel hörs vida omkring på våren.",
+    "vikt": "Tupp 1,1–1,5 kg, höna 0,8–1 kg",
+    "langd": "0,4–0,55 m",
+    "livslangd": "5–8 år",
+    "habitat": "Mosaik av skog, myr, hyggen och odlingsmark",
+    "foda": "Björkknopp på vintern, annars bär, frön och insekter",
+    "aktivitet": "Dag, spel i gryningen",
+    "kannetecken": [
+      "Tuppen är blåsvart med lyrformad stjärt och vita vingband",
+      "Röda ögonbrynskammar hos tuppen",
+      "Hönan är brunspräcklig och mindre"
+    ],
+    "fakta": [
+      "Orrspelet samlar ofta 5–20 tuppar på samma spelplats.",
+      "Vintertid bukar orren ner sig i snön för att spara värme.",
+      "Orrens bubblande kuttrande hörs upp till flera kilometer."
+    ]
+  },
+  {
+    "id": "jarpe",
+    "namn": "Järpe",
+    "latinNamn": "Tetrastes bonasia",
+    "kategori": "Skogsfågel",
+    "emoji": "🐤",
+    "beskrivning": "Järpen är vår minsta skogshönsfågel. Den lever diskret i tät granskog med lövinslag och avslöjar sig oftast genom sin höga visslande lockton.",
+    "vikt": "0,3–0,45 kg",
+    "langd": "0,34–0,39 m",
+    "livslangd": "3–7 år",
+    "habitat": "Tät, olikåldrig granskog med al, björk och bäckdråg",
+    "foda": "Knoppar, hängen, bär, frön och insekter",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Liten och kompakt med gråspräcklig rygg",
+      "Tuppen har svart strupfläck kantad med vitt",
+      "Kort svart tvärband ytterst på stjärten"
+    ],
+    "fakta": [
+      "Järpen lever i par i samma revir stora delar av året – ovanligt bland hönsfåglar.",
+      "Lockpipa som härmar järpens vissling är ett klassiskt jaktredskap.",
+      "Järpen flyger sällan långt – den smiter hellre undan tätt genom granarna."
+    ]
+  },
+  {
+    "id": "dalripa",
+    "namn": "Dalripa",
+    "latinNamn": "Lagopus lagopus",
+    "kategori": "Skogsfågel",
+    "emoji": "🐦",
+    "beskrivning": "Dalripan lever i fjällbjörkskog och på myrar i norra Sverige. Den är berömd för sitt skrattande läte och sin snövita vinterdräkt.",
+    "vikt": "0,4–0,7 kg",
+    "langd": "0,35–0,4 m",
+    "livslangd": "3–7 år",
+    "habitat": "Fjällbjörkskog, videsnår och myrmark",
+    "foda": "Björk- och videknopp, bär och örter",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Helvit på vintern med svart stjärt",
+      "Rödbrun med vita vingar på sommaren",
+      "Tuppen har röda ögonbrynskammar"
+    ],
+    "fakta": [
+      "Dalripans revirläte låter som ett rullande skratt.",
+      "Fjäderklädda fötter fungerar som snöskor.",
+      "Ripjakten i fjällen är en stark tradition, ofta med stående fågelhund."
+    ]
+  },
+  {
+    "id": "fjallripa",
+    "namn": "Fjällripa",
+    "latinNamn": "Lagopus muta",
+    "kategori": "Skogsfågel",
+    "emoji": "🐦",
+    "beskrivning": "Fjällripan lever ovanför trädgränsen på kalfjället. Den är mästare på kamouflage och byter dräkt tre gånger om året.",
+    "vikt": "0,4–0,6 kg",
+    "langd": "0,33–0,38 m",
+    "livslangd": "3–7 år",
+    "habitat": "Kalfjäll, blockmark och fjällhedar",
+    "foda": "Knoppar, frön, bär och örter",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Vit vinterdräkt, gråspräcklig sommardräkt",
+      "Tuppen har svart tygel mellan näbb och öga på vintern",
+      "Knarrande, grodliknande läte"
+    ],
+    "fakta": [
+      "Fjällripan trycker ofta så hårt att man nästan kan kliva på den innan den lyfter.",
+      "Den gräver sig ner i snön för att övernatta och spara värme.",
+      "Fjällripan klarar temperaturer under minus 40 grader."
+    ]
+  },
+  {
+    "id": "fasan",
+    "namn": "Fasan",
+    "latinNamn": "Phasianus colchicus",
+    "kategori": "Fältvilt",
+    "emoji": "🐓",
+    "beskrivning": "Fasanen kommer ursprungligen från Asien och sattes ut i Sverige på 1800-talet. Den trivs i odlingslandskapet i södra Sverige och är ett klassiskt fältvilt.",
+    "vikt": "Tupp 1,2–1,6 kg, höna 0,9–1,2 kg",
+    "langd": "0,55–0,9 m inkl. stjärt",
+    "livslangd": "3–6 år",
+    "habitat": "Odlingslandskap med häckar, vassar och skogsdungar",
+    "foda": "Frön, säd, bär, insekter och gröna växtdelar",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Tuppen är kopparröd med grönt huvud, röda kinder och mycket lång stjärt",
+      "Hönan är beige-brunspräcklig med kortare stjärt",
+      "Flyger upp med explosiv skrällande flykt"
+    ],
+    "fakta": [
+      "Fasantuppens gälla utrop följt av vingsmatter hörs långt över fälten.",
+      "Fasanen övernattar gärna uppflugen i träd.",
+      "Många fasaner sätts årligen ut för jakt med stående och stötande hundar."
+    ]
+  },
+  {
+    "id": "rapphona",
+    "namn": "Rapphöna",
+    "latinNamn": "Perdix perdix",
+    "kategori": "Fältvilt",
+    "emoji": "🐔",
+    "beskrivning": "Rapphönan är en knubbig fälthönsfågel som lever i familjegrupper på öppna fält. Den har minskat kraftigt i takt med jordbrukets förändring.",
+    "vikt": "0,3–0,45 kg",
+    "langd": "0,29–0,33 m",
+    "livslangd": "2–4 år",
+    "habitat": "Öppen odlingsmark med gräskanter, dikesrenar och häckar",
+    "foda": "Frön, gröna växtdelar och insekter",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Knubbig och kortstjärtad med orangebrunt ansikte",
+      "Grå hals och bröst, hanen har mörk hästskoformad bukfläck",
+      "Flyger lågt med snabba vingslag och glid"
+    ],
+    "fakta": [
+      "Rapphönan lägger en av fågelvärldens största kullar – ofta 15–20 ägg.",
+      "Familjegruppen, kedjan, håller ihop hela vintern.",
+      "Många jägare arbetar aktivt med viltvård för att gynna rapphönan."
+    ]
+  },
+  {
+    "id": "ringduva",
+    "namn": "Ringduva",
+    "latinNamn": "Columba palumbus",
+    "kategori": "Fältvilt",
+    "emoji": "🕊️",
+    "beskrivning": "Ringduvan är Europas största duva och en mycket vanlig häckfågel i hela södra och mellersta Sverige. Duvjakt över lockbilder är en populär jaktform.",
+    "vikt": "0,4–0,6 kg",
+    "langd": "0,4–0,42 m",
+    "livslangd": "3–8 år",
+    "habitat": "Skog, parker, trädgårdar och odlingslandskap",
+    "foda": "Säd, frön, ärtor, bok- och ekollon samt gröna blad",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Grå med vinröst bröst och vita halsfläckar",
+      "Tydliga vita vingband som syns i flykten",
+      "Femstavigt hoande läte"
+    ],
+    "fakta": [
+      "Ringduvan kan flyga över 100 km om dagen mellan övernattning och födosök.",
+      "Duvungar matas med duvmjölk från föräldrarnas kräva.",
+      "Höstens duvsträck kan omfatta hundratusentals fåglar på en dag."
+    ]
+  },
+  {
+    "id": "grasand",
+    "namn": "Gräsand",
+    "latinNamn": "Anas platyrhynchos",
+    "kategori": "Sjöfågel & vadare",
+    "emoji": "🦆",
+    "beskrivning": "Gräsanden är vår vanligaste and och finns vid nästan alla vatten i hela landet. Den är stamfader till de flesta tamänder.",
+    "vikt": "0,9–1,4 kg",
+    "langd": "0,5–0,6 m",
+    "livslangd": "5–10 år",
+    "habitat": "Sjöar, åar, dammar, våtmarker och kuster",
+    "foda": "Vattenväxter, frön, säd, insekter och smådjur",
+    "aktivitet": "Dag och skymning",
+    "kannetecken": [
+      "Hanen har grönskimrande huvud, vit halsring och brunt bröst",
+      "Honan är brunspräcklig med blå vingspegel",
+      "Klassiskt kvackande läte (endast honan)"
+    ],
+    "fakta": [
+      "Gräsanden kan lyfta nästan lodrätt ur vattnet.",
+      "Andjakt i skymningen (sträckjakt) är en av de vanligaste jaktformerna på fågel.",
+      "Honan flyttar ungarna till vatten redan första dygnet efter kläckning."
+    ]
+  },
+  {
+    "id": "kanadagas",
+    "namn": "Kanadagås",
+    "latinNamn": "Branta canadensis",
+    "kategori": "Sjöfågel & vadare",
+    "emoji": "🪿",
+    "beskrivning": "Kanadagåsen infördes från Nordamerika på 1930-talet och är nu vår största och vanligaste gås. Den orsakar lokalt skador på gröda och badplatser.",
+    "vikt": "3,5–6,5 kg",
+    "langd": "0,9–1,1 m",
+    "livslangd": "10–20 år",
+    "habitat": "Sjöar, vikar, parker och jordbruksmark",
+    "foda": "Gräs, säd, spannmålsrester och vattenväxter",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Svart hals och huvud med vit kindfläck",
+      "Gråbrun kropp med ljust bröst",
+      "Trumpetande läte i flykten"
+    ],
+    "fakta": [
+      "Kanadagäss flyger i typisk plogformation för att spara energi.",
+      "Paret håller ihop livet ut.",
+      "Gåsjakt sker ofta på morgonen över fält med lockbilder (vettar)."
+    ]
+  },
+  {
+    "id": "gragas",
+    "namn": "Grågås",
+    "latinNamn": "Anser anser",
+    "kategori": "Sjöfågel & vadare",
+    "emoji": "🪿",
+    "beskrivning": "Grågåsen är vår ursprungliga vilda gås och stamfader till tamgåsen. Stammen har vuxit kraftigt de senaste decennierna.",
+    "vikt": "2,5–4,5 kg",
+    "langd": "0,75–0,9 m",
+    "livslangd": "10–17 år",
+    "habitat": "Slättsjöar, våtmarker, kuster och jordbruksmark",
+    "foda": "Gräs, örter, säd, rötter och spannmålsrester",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Grå med ljusare framvingar som syns i flykten",
+      "Orange näbb och skära ben",
+      "Högljutt kacklande som tamgåsen"
+    ],
+    "fakta": [
+      "Grågåsen var nära försvinnande i Sverige i början av 1900-talet.",
+      "Under sensommaren samlas tusentals grågäss vid södra Sveriges slättsjöar.",
+      "Gässen betar helst på nattbelysta öppna fält där de känner sig trygga."
+    ]
+  },
+  {
+    "id": "morkulla",
+    "namn": "Morkulla",
+    "latinNamn": "Scolopax rusticola",
+    "kategori": "Sjöfågel & vadare",
+    "emoji": "🪶",
+    "beskrivning": "Morkullan är en skogslevande vadare med perfekt kamouflage. Hanens sträckflykt i skymningen, draget, är ett välkänt vårtecken.",
+    "vikt": "0,25–0,35 kg",
+    "langd": "0,33–0,38 m",
+    "livslangd": "3–8 år",
+    "habitat": "Fuktig löv- och blandskog med mjuk mark",
+    "foda": "Daggmask, insektslarver och andra smådjur",
+    "aktivitet": "Skymning och natt",
+    "kannetecken": [
+      "Lång rak näbb och stora mörka ögon högt uppe på huvudet",
+      "Rostbrun, bark-lik kamouflageteckning",
+      "Knorrande och pissande läten under spelflykten"
+    ],
+    "fakta": [
+      "Morkullans ögon ger nästan 360 graders synfält.",
+      "Näbbspetsen är känslig och rörlig för att känna maskar i marken.",
+      "Honan kan flyga med ungarna mellan benen om fara hotar."
+    ]
+  },
+  {
+    "id": "kraka",
+    "namn": "Kråka",
+    "latinNamn": "Corvus corone cornix",
+    "kategori": "Kråkfåglar",
+    "emoji": "🐦‍⬛",
+    "beskrivning": "Kråkan är en intelligent och anpassningsbar fågel som finns i hela landet. Den jagas främst inom viltvården eftersom den tar ägg och fågelungar.",
+    "vikt": "0,4–0,6 kg",
+    "langd": "0,44–0,51 m",
+    "livslangd": "5–10 år",
+    "habitat": "Odlingslandskap, kuster, tätorter och skogsbryn",
+    "foda": "Allätare – ägg, fågelungar, as, insekter, säd och avfall",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Grå kropp med svart huvud, vingar och stjärt",
+      "Kraftig svart näbb",
+      "Välkänt kraxande läte"
+    ],
+    "fakta": [
+      "Kråkor kan lära sig känna igen enskilda människor.",
+      "Vintertid samlas kråkor i stora gemensamma övernattningsplatser.",
+      "Kråkjakt med bulvan och lockpipa är en effektiv viltvårdsjakt."
+    ]
+  },
+  {
+    "id": "skata",
+    "namn": "Skata",
+    "latinNamn": "Pica pica",
+    "kategori": "Kråkfåglar",
+    "emoji": "🐦‍⬛",
+    "beskrivning": "Skatan är en välbekant svartvit kråkfågel som gärna häckar nära människor. Liksom kråkan jagas den främst i viltvårdande syfte.",
+    "vikt": "0,2–0,27 kg",
+    "langd": "0,4–0,5 m inkl. stjärt",
+    "livslangd": "4–8 år",
+    "habitat": "Tätorter, gårdar och öppet landskap med buskar och träd",
+    "foda": "Allätare – insekter, ägg, fågelungar, frön, as och avfall",
+    "aktivitet": "Dag",
+    "kannetecken": [
+      "Svartvit med metallglänsande grönblå stjärt",
+      "Mycket lång kilformad stjärt",
+      "Skrattande, tjattrande läte"
+    ],
+    "fakta": [
+      "Skatan är en av få fågelarter som klarar spegeltestet – den känner igen sig själv.",
+      "Skatboet är ett klotformat risbygge med tak och två ingångar.",
+      "Gamla skatbon används ofta av andra fåglar, till exempel hornugglor."
+    ]
+  }
+]
