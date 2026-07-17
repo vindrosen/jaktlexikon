@@ -21,7 +21,23 @@
       "En älgtjur kan ha horn som väger över 20 kg.",
       "Älgen är en skicklig simmare och kan dyka efter vattenväxter.",
       "Sverige har en av världens tätaste älgstammar – cirka 300 000 djur före jakt."
-    ]
+    ],
+    "familj": "Hjortdjur (Cervidae)",
+    "brunsttid": "September–början av oktober",
+    "fortplantning": "Kon blir könsmogen vid 1,5–2,5 år och föder efter cirka 8 månaders dräktighet 1–2 kalvar i slutet av maj. Kalven följer kon till nästa brunst.",
+    "spar": "Stora spetsiga klövavtryck, 10–16 cm långa. I lös mark eller djup snö spretar klövhalvorna och lättklövarna syns bakom avtrycket.",
+    "spillning": "Avlånga pellets stora som valnötter, ljust till mörkt bruna. Sommartid mjukare, kladdiga kakor på grund av saftig föda.",
+    "horn": "Endast tjuren bär horn. De växer under sommaren under en hudbeklädd basthud och fälls i december–januari. Formen varierar mellan stånghorn, skovelhorn och blandformer.",
+    "fiender": "Varg och björn tar främst kalvar. Vuxna älgar har få naturliga fiender – trafiken är den största dödsorsaken efter jakten.",
+    "utbredning": "Hela landet utom Gotland. Tätast i barrskogslandskapet i Norrland och Svealand.",
+    "images": {
+      "main": "images/alg.png",
+      "head": "images/alg-head.png",
+      "young": "images/alg-young.png",
+      "antlers": "images/alg-antlers.png",
+      "tracks": "images/alg-tracks.png",
+      "droppings": "images/alg-droppings.png"
+    }
   },
   {
     "id": "radjur",
@@ -45,7 +61,23 @@
       "Rådjursgeten kan fördröja fostrets utveckling – parning sker i augusti men killingarna föds först i maj–juni.",
       "Killingarna ligger gömda i vegetationen de första veckorna och ska aldrig röras.",
       "Rådjurets skall låter som ett hest hundskall och används som varningsläte."
-    ]
+    ],
+    "familj": "Hjortdjur (Cervidae)",
+    "brunsttid": "Mitten av juli–mitten av augusti",
+    "fortplantning": "Geten har fördröjd fosterutveckling: parning sker i augusti men fostret börjar växa först i december. 1–3 killingar föds i maj–juni och ligger tryckta i vegetationen de första veckorna.",
+    "spar": "Små spetsiga klövavtryck, 3–4,5 cm långa, med hjärtformad kontur. Vid språng spretar klövarna och lättklövarna kan avteckna sig.",
+    "spillning": "Små, glänsande svarta pellets, ofta i samlad hög. Något spetsiga i ena änden och urgröpta i den andra.",
+    "horn": "Bocken bär små horn med normalt två till tre taggar per stång. Hornen fälls i oktober–november och är färdigfejade i mars–april.",
+    "fiender": "Lodjur är den viktigaste naturliga fienden. Räv och örn tar killingar, varg tar rådjur där den finns. Svåra vintrar och trafik tar många djur.",
+    "utbredning": "Hela landet utom fjällkedjan och de nordligaste delarna. Tätast i södra och mellersta Sveriges mosaiklandskap.",
+    "images": {
+      "main": "images/radjur.png",
+      "head": "images/radjur-head.png",
+      "young": "images/radjur-young.png",
+      "antlers": "images/radjur-antlers.png",
+      "tracks": "images/radjur-tracks.png",
+      "droppings": "images/radjur-droppings.png"
+    }
   },
   {
     "id": "kronhjort",
@@ -69,7 +101,23 @@
       "Den svenska ursprungsstammen av kronhjort finns i Skåne och har särskilt skydd.",
       "Under brunsten kan en hjort tappa uppemot 20 procent av sin kroppsvikt.",
       "Kronhjortens horn kan väga över 10 kg och fälls varje vår."
-    ]
+    ],
+    "familj": "Hjortdjur (Cervidae)",
+    "brunsttid": "Mitten av september–mitten av oktober",
+    "fortplantning": "Hjorten samlar hindar i harem och brölar för att hävda reviret. Efter cirka 8 månaders dräktighet föds en kalv i maj–juni.",
+    "spar": "Stora rundade klövavtryck, 7–9 cm långa, bredare och trubbigare än älgens och betydligt större än dovhjortens.",
+    "spillning": "Avlånga mörka pellets, cirka 2–2,5 cm, ofta med spets i ena änden. Samlas i högar.",
+    "horn": "Hjorten bär grenade horn som kan få en krona i toppen. Hornen fälls i mars–april och en fullvuxen hjorts gevir kan väga över 10 kg.",
+    "fiender": "Varg och lodjur tar främst kalvar och svaga djur. Vuxna hjortar har få naturliga fiender i Sverige.",
+    "utbredning": "Skåne har den ursprungliga svenska stammen. Utsatta och förvildade stammar finns i södra och mellersta Sverige.",
+    "images": {
+      "main": "images/kronhjort.png",
+      "head": "images/kronhjort-head.png",
+      "young": "images/kronhjort-young.png",
+      "antlers": "images/kronhjort-antlers.png",
+      "tracks": "images/kronhjort-tracks.png",
+      "droppings": "images/kronhjort-droppings.png"
+    }
   },
   {
     "id": "dovhjort",
@@ -93,7 +141,23 @@
       "Dovhjorten kom till Sverige som parkdjur hos kungligheter och adel.",
       "Under brunsten samlar hjortarna harem på traditionella brunstplatser.",
       "En skrämd dovhjort kan studsa fram med alla fyra benen samtidigt – det kallas prong."
-    ]
+    ],
+    "familj": "Hjortdjur (Cervidae)",
+    "brunsttid": "Oktober",
+    "fortplantning": "Hjortarna samlas på traditionella brunstplatser där de rapar och sparkar upp brunstgropar. Hinden föder en kalv i juni efter cirka 8 månaders dräktighet.",
+    "spar": "Klövavtryck cirka 4–6 cm långa – mellan rådjurets och kronhjortens i storlek, mer parallella kanter än rådjurets.",
+    "spillning": "Mörka avlånga pellets, cirka 1,5 cm, ofta något spetsiga och samlade i hög.",
+    "horn": "Hjorten bär breda skovelformade horn som fälls i april–maj. Skovlarnas storlek ökar med åldern.",
+    "fiender": "Få naturliga fiender i Sverige. Lodjur och varg kan ta enstaka djur, räv tar nyfödda kalvar.",
+    "utbredning": "Främst södra och mellersta Sverige, tätast i Skåne, Södermanland och kring de stora godsen.",
+    "images": {
+      "main": "images/dovhjort.png",
+      "head": "images/dovhjort-head.png",
+      "young": "images/dovhjort-young.png",
+      "antlers": "images/dovhjort-antlers.png",
+      "tracks": "images/dovhjort-tracks.png",
+      "droppings": "images/dovhjort-droppings.png"
+    }
   },
   {
     "id": "vildsvin",
@@ -117,7 +181,21 @@
       "Vildsvin kan springa i 40 km/h och simmar utmärkt.",
       "Suggorna i en grupp föder ofta kultingar samtidigt och hjälps åt med uppfödningen.",
       "Vildsvinets bök i marken gynnar många växter – men skapar konflikter med lantbruket."
-    ]
+    ],
+    "familj": "Svindjur (Suidae)",
+    "brunsttid": "Främst november–januari, men kan ske året runt",
+    "fortplantning": "Suggan är dräktig i cirka 115 dagar (tre månader, tre veckor, tre dagar) och föder 4–8 randiga kultingar i ett bo av gräs och ris. Suggorna i en grupp synkroniserar ofta kullarna.",
+    "spar": "Rundade klövavtryck, 4–7 cm, där lättklövarna nästan alltid syns brett isär – ett säkert kännetecken mot hjortdjur.",
+    "spillning": "Korta, tjocka korvar av sammansatta pellets, ofta mörka och med synliga rester av föda som säd eller ollon.",
+    "fiender": "Varg och lodjur kan ta kultingar och ungdjur. Vuxna vildsvin har få fiender – galten är ett farligt byte.",
+    "utbredning": "Södra och mellersta Sverige upp till Dalarna och Gävleborg, med spridning norrut. Saknas i fjälltrakterna och på Gotland.",
+    "images": {
+      "main": "images/vildsvin.png",
+      "head": "images/vildsvin-head.png",
+      "young": "images/vildsvin-young.png",
+      "tracks": "images/vildsvin-tracks.png",
+      "droppings": "images/vildsvin-droppings.png"
+    }
   },
   {
     "id": "rodrav",
@@ -141,7 +219,21 @@
       "Rävens skall och skrik hörs ofta under parningstiden i januari–februari.",
       "Räven ordnar skafferi – överskottsmat grävs ner och hämtas senare.",
       "Rävskabb slog hårt mot stammen på 1980-talet men räven har återhämtat sig."
-    ]
+    ],
+    "familj": "Hunddjur (Canidae)",
+    "brunsttid": "December–februari (löptid)",
+    "fortplantning": "Efter cirka 52 dagars dräktighet föds 4–6 valpar i ett gryt i mars–maj. Valparna kommer ut ur grytet vid fyra veckors ålder och familjen splittras på hösten.",
+    "spar": "Avlångt tassavtryck, cirka 5 x 4 cm, med fyra tår och tydliga klomärken. Spårlöpan är påfallande rak – en snörlöpa – till skillnad från hundens.",
+    "spillning": "Avlång, vriden korv med tillspetsad ände, ofta full av hår, ben och bärkärnor. Läggs gärna synligt på stenar och stigkanter.",
+    "fiender": "Lodjur, varg och kungsörn tar rävar. Rävskabb och trafik är viktiga dödsorsaker.",
+    "utbredning": "Hela landet, från Skånes slätter till fjällens björkskog och in i storstädernas parker.",
+    "images": {
+      "main": "images/rodrav.png",
+      "head": "images/rodrav-head.png",
+      "young": "images/rodrav-young.png",
+      "tracks": "images/rodrav-tracks.png",
+      "droppings": "images/rodrav-droppings.png"
+    }
   },
   {
     "id": "gravling",
@@ -165,7 +257,19 @@
       "Ett grävlingsgryt kan ha över 30 ingångar och användas i över hundra år.",
       "Grävlingen sover vintersömn men vaknar och rör sig under milda perioder.",
       "En grävling kan äta flera hundra daggmaskar på en natt."
-    ]
+    ],
+    "familj": "Mårddjur (Mustelidae)",
+    "brunsttid": "Parning sker främst i juli–augusti",
+    "fortplantning": "Grävlingen har fördröjd fosterutveckling – ungarna föds först i januari–mars. Kullen består av 2–4 ungar som stannar i grytet till våren.",
+    "spar": "Brett avtryck, cirka 6 x 5 cm, med fem tår och långa kraftiga grävklor som avtecknar sig framför trampdynan.",
+    "spillning": "Läggs i grävda latringropar nära grytet – ofta lös och mörk med rester av daggmask och insekter.",
+    "fiender": "Få naturliga fiender i Sverige. Lodjur och varg kan ta enstaka djur; trafiken är den stora dödsorsaken.",
+    "utbredning": "Södra och mellersta Sverige upp till mellersta Norrland. Saknas i fjällen.",
+    "images": {
+      "main": "images/gravling.png",
+      "head": "images/gravling-head.png",
+      "tracks": "images/gravling-tracks.png"
+    }
   },
   {
     "id": "mard",
@@ -189,7 +293,17 @@
       "Mården kan förfölja ekorrar i trädkronorna i full fart.",
       "Den övertar gärna gamla rovfågelbon och ekorrbon som viloplatser.",
       "Mårdskinn var under medeltiden ett av Sveriges viktigaste handelsvaror."
-    ]
+    ],
+    "familj": "Mårddjur (Mustelidae)",
+    "brunsttid": "Juli–augusti",
+    "fortplantning": "Fördröjd fosterutveckling gör att ungarna föds först i mars–april. Kullen på 2–4 ungar föds i ett hålträd eller gammalt ekorrbo.",
+    "spar": "Två tassavtryck sida vid sida i typiska skutt (parspår), cirka 4 x 3,5 cm, med fem tår. Spåren går ofta rakt in under lågor och stubbar.",
+    "spillning": "Smal, vriden korv med lång spets, ofta full av hår och bärkärnor. Läggs gärna på upphöjda platser som stenar och stubbar.",
+    "fiender": "Lodjur, räv och kungsörn. Konkurrerar med räven om föda.",
+    "utbredning": "Hela landet där det finns sammanhängande äldre skog, även i fjällbjörkskogen.",
+    "images": {
+      "main": "images/mard.png"
+    }
   },
   {
     "id": "mink",
@@ -213,7 +327,17 @@
       "Minken är en av de största orsakerna till misslyckade häckningar i skärgårdens fågelkolonier.",
       "Den kan dyka flera meter djupt efter fisk.",
       "Jakt på mink är tillåten året runt eftersom den är en invasiv främmande art."
-    ]
+    ],
+    "familj": "Mårddjur (Mustelidae)",
+    "brunsttid": "Februari–mars",
+    "fortplantning": "Efter cirka 45–50 dagars dräktighet föds 4–6 ungar i april–maj i ett bo nära vattnet. Ungarna är självständiga på hösten.",
+    "spar": "Litet stjärnformat avtryck, cirka 3 x 3 cm, med fem spretande tår. Ses oftast i strandkantens dy och snö.",
+    "spillning": "Smal, vriden korv, ofta med fiskben och fjäll. Läggs på stenar och stockar längs stranden.",
+    "fiender": "Räv, lodjur och stora rovfåglar. Bekämpas aktivt som invasiv art.",
+    "utbredning": "Hela landet längs sjöar, vattendrag och kuster, inklusive skärgårdarna.",
+    "images": {
+      "main": "images/mink.png"
+    }
   },
   {
     "id": "iller",
@@ -237,7 +361,17 @@
       "Illern är den vilda stamformen till tamillern, fretten.",
       "Grodor är en viktig del av födan – illern kan hamstra dem i vinterförråd.",
       "Vid fara kan illern spruta illaluktande sekret från analkörtlarna."
-    ]
+    ],
+    "familj": "Mårddjur (Mustelidae)",
+    "brunsttid": "Mars–maj",
+    "fortplantning": "Efter cirka 40 dagars dräktighet föds 4–8 ungar i maj–juni. Honan uppfostrar ungarna ensam och de är självständiga vid tre månaders ålder.",
+    "spar": "Femtåigt avtryck, cirka 3,5 x 3 cm, likt minkens men något bredare. Rör sig i skutt med parvisa avtryck.",
+    "spillning": "Smal, mörk och vriden korv med stark lukt, ofta med rester av grodor och smågnagare.",
+    "fiender": "Räv, lodjur, berguv och andra rovfåglar. Trafik är en vanlig dödsorsak.",
+    "utbredning": "Södra och mellersta Sverige upp till Gävleborg. Vanligast i Skåne och kring odlingslandskapets vatten.",
+    "images": {
+      "main": "images/iller.png"
+    }
   },
   {
     "id": "mardhund",
@@ -261,7 +395,17 @@
       "Mårdhunden är det enda hunddjuret som sover vintersömn.",
       "Ett par mårdhundar kan få över 10 valpar per kull.",
       "I Sverige bekämpas arten med hjälp av GPS-märkta så kallade judasdjur."
-    ]
+    ],
+    "familj": "Hunddjur (Canidae)",
+    "brunsttid": "Februari–april",
+    "fortplantning": "Efter cirka 60 dagars dräktighet föds en stor kull på 5–12 valpar i maj. Båda föräldrarna vårdar ungarna – ovanligt bland våra rovdjur.",
+    "spar": "Rundat hundliknande avtryck, cirka 5 x 4,5 cm, men kortare och mer spretigt än rävens. Spårlöpan är oregelbunden och slingrig.",
+    "spillning": "Läggs ofta på gemensamma latriner, mörk och varierad med rester av grodor, bär och insekter.",
+    "fiender": "Varg, lodjur och räv. Bekämpas aktivt som invasiv art med hjälp av GPS-märkta judasdjur.",
+    "utbredning": "Norra Sverige, främst Norrbotten – invandrar från Finland. Enstaka fynd längre söderut rapporteras.",
+    "images": {
+      "main": "images/mardhund.png"
+    }
   },
   {
     "id": "bjorn",
@@ -285,7 +429,21 @@
       "En björn kan äta en tredjedel av sin årsranson bär på hösten – uppåt 100 000 blåbär per dag.",
       "Björnen sover i ide från oktober–november till mars–april.",
       "Honan föder ungarna i idet mitt i vintern – de väger då bara ett halvt kilo."
-    ]
+    ],
+    "familj": "Björnar (Ursidae)",
+    "brunsttid": "Maj–juli",
+    "fortplantning": "Fördröjd fosterutveckling – ungarna föds i idet i januari och väger då bara ett halvt kilo. Kullen på 1–3 ungar följer honan i cirka 1,5 år.",
+    "spar": "Bakfotens avtryck liknar en bred människofot, 16–25 cm långt, med fem tår i rad och långa klomärken.",
+    "spillning": "Stora högar som varierar starkt med årstid – på hösten närmast helt av blåbär och kråkbär.",
+    "fiender": "Inga naturliga fiender som vuxen. Hanar kan döda ungar; jakt och trafik är dödsorsakerna.",
+    "utbredning": "Norra och mellersta Sverige – kärnområden i Norrbotten, Västerbotten, Jämtland, Västernorrland, Gävleborg och Dalarna.",
+    "images": {
+      "main": "images/bjorn.png",
+      "head": "images/bjorn-head.png",
+      "young": "images/bjorn-young.png",
+      "tracks": "images/bjorn-tracks.png",
+      "droppings": "images/bjorn-droppings.png"
+    }
   },
   {
     "id": "lodjur",
@@ -309,7 +467,20 @@
       "Lodjuret kan se en sork på 75 meters håll i svagt ljus.",
       "Ett lodjur vandrar ofta över en mil per natt inom sitt revir.",
       "Jakten är strikt reglerad licensjakt och stammen inventeras varje vinter."
-    ]
+    ],
+    "familj": "Kattdjur (Felidae)",
+    "brunsttid": "Mars–april",
+    "fortplantning": "Efter cirka 70 dagars dräktighet föds 1–4 ungar i maj–juni i en skyddad lya under en rotvälta eller klippa. Ungarna följer honan till nästa parningstid.",
+    "spar": "Runt kattavtryck, cirka 7 x 7 cm, utan klomärken och med asymmetrisk tåställning. Steglängden är lång och löpan målmedveten.",
+    "spillning": "Mörk, kattlik och ofta nedgrävd eller täckt. Innehåller hår och benrester från rådjur och hare.",
+    "fiender": "Inga naturliga fiender som vuxen. Varg kan döda lodjur; illegal jakt och trafik förekommer.",
+    "utbredning": "Hela landet med tyngdpunkt i mellersta och norra Sverige. Saknas i stort sett på Gotland.",
+    "images": {
+      "main": "images/lodjur.png",
+      "head": "images/lodjur-head.png",
+      "tracks": "images/lodjur-tracks.png",
+      "droppings": "images/lodjur-droppings.png"
+    }
   },
   {
     "id": "varg",
@@ -333,7 +504,20 @@
       "Ett vargrevir i Skandinavien är i snitt cirka 1 000 kvadratkilometer.",
       "Vargens ylande kan höras på en mils avstånd.",
       "Den skandinaviska vargstammen inventeras noggrant varje vinter med DNA-analys av spillning."
-    ]
+    ],
+    "familj": "Hunddjur (Canidae)",
+    "brunsttid": "Februari–mars",
+    "fortplantning": "Endast det ledande paret i flocken parar sig. Efter cirka 63 dagars dräktighet föds 4–6 valpar i maj. Ungvargarna vandrar ut vid 1–2 års ålder, ibland hundratals mil.",
+    "spar": "Stort hundavtryck, 9–12 cm långt, med kraftiga klomärken. Spårlöpan är rak och energisnål – flocken går ofta i varandras spår.",
+    "spillning": "Grov, hårfylld korv med benflisor, ofta lagd synligt i korsningar av skogsbilvägar och stigar.",
+    "fiender": "Inga naturliga fiender. Illegal jakt, licensjakt och trafik är dödsorsakerna.",
+    "utbredning": "Främst mellersta Sverige – Värmland, Dalarna, Örebro, Västmanland och Gävleborg. Enstaka revir längre norrut och söderut.",
+    "images": {
+      "main": "images/varg.png",
+      "head": "images/varg-head.png",
+      "tracks": "images/varg-tracks.png",
+      "droppings": "images/varg-droppings.png"
+    }
   },
   {
     "id": "falthare",
@@ -357,7 +541,18 @@
       "Fältharen kan nå 60 km/h och slår tvära krokar för att skaka av sig förföljare.",
       "Honan kan vara dräktig med två kullar samtidigt – så kallad superfetation.",
       "Ungarna föds fullt pälsklädda med öppna ögon."
-    ]
+    ],
+    "familj": "Hardjur (Leporidae)",
+    "brunsttid": "Januari–augusti (parningstid)",
+    "fortplantning": "Honan kan få 3–4 kullar per år med 2–4 ungar. Superfetation gör att hon kan bära två kullar samtidigt. Ungarna föds pälsklädda med öppna ögon.",
+    "spar": "Typiskt harsprång där de långa bakfötterna landar framför framfötterna. Bakfotens avtryck är smalare än skogsharens.",
+    "spillning": "Runda, platta och något torra pellets av grovt växtmaterial, cirka 1,5 cm i diameter.",
+    "fiender": "Räv, lodjur, kungsörn, duvhök och hund. Trafik och regniga somrar tar många ungar.",
+    "utbredning": "Södra och mellersta Sverige upp till Gävleborg, tätast i det öppna odlingslandskapet.",
+    "images": {
+      "main": "images/falthare.png",
+      "tracks": "images/falthare-tracks.png"
+    }
   },
   {
     "id": "skogshare",
@@ -381,7 +576,18 @@
       "Skogsharens vintervita päls styrs av dagslängden, inte av snötillgången.",
       "I södra Sverige trängs skogsharen undan av fältharen och klimatförändringen.",
       "Haren trycker hårt in i det sista och rusar sedan iväg – därav uttrycket att en hare går upp."
-    ]
+    ],
+    "familj": "Hardjur (Leporidae)",
+    "brunsttid": "Mars–augusti (parningstid)",
+    "fortplantning": "Honan får 2–3 kullar per år med 2–5 ungar som föds pälsklädda och seende. Första kullen kommer redan i maj.",
+    "spar": "Bred bakfot med kraftig hårbeklädnad – avtrycket är påfallande stort i snö och fungerar som snösko. Typiskt harsprång.",
+    "spillning": "Runda, ljusa pellets av grovt fibrigt material, ofta i mängd vid gnagplatser.",
+    "fiender": "Lodjur, räv, kungsörn, berguv och duvhök. Konkurreras ut av fältharen i söder.",
+    "utbredning": "Hela landet inklusive fjällen. Har trängts undan av fältharen i södra Sverige.",
+    "images": {
+      "main": "images/skogshare.png",
+      "tracks": "images/skogshare-tracks.png"
+    }
   },
   {
     "id": "vildkanin",
@@ -405,7 +611,17 @@
       "En kaninhona kan få över 20 ungar per år.",
       "Kaninpest (myxomatos) slår återkommande hårt mot bestånden.",
       "Vildkaninen kom till Sverige som tamdjur och förvildades i början av 1900-talet."
-    ]
+    ],
+    "familj": "Hardjur (Leporidae)",
+    "brunsttid": "Februari–augusti (parningstid)",
+    "fortplantning": "Extremt hög förökning – 3–5 kullar per år med 3–7 ungar. Ungarna föds nakna och blinda i en pälsfodrad bogång, till skillnad från harungar.",
+    "spar": "Litet harliknande språng men med kortare steg och mindre bakfot. Spåren leder nästan alltid till en gång i marken.",
+    "spillning": "Små runda pellets, cirka 1 cm, ofta i stora ansamlingar vid kolonins gångsystem.",
+    "fiender": "Räv, mård, iller, hök och katt. Myxomatos och kaningulsot slår hårt mot bestånden.",
+    "utbredning": "Skåne och Gotland samt lokalt i södra Sveriges tätorter och sandmarker.",
+    "images": {
+      "main": "images/vildkanin.png"
+    }
   },
   {
     "id": "baver",
@@ -429,7 +645,18 @@
       "Bävern varnar familjen genom att smälla svansen i vattenytan.",
       "En bäverdamm kan bli över hundra meter lång.",
       "Alla svenska bävrar härstammar från cirka 80 norska djur som sattes ut på 1920–30-talen."
-    ]
+    ],
+    "familj": "Bävrar (Castoridae)",
+    "brunsttid": "Januari–februari",
+    "fortplantning": "Efter cirka 105 dagars dräktighet föds 2–4 ungar i maj–juni inne i hyddan. Ungarna stannar i familjen i två år innan de vandrar ut.",
+    "spar": "Stor bakfot med simhud, upp till 15 cm. Avtrycken suddas ofta ut av den släpande svansen – ett typiskt kännetecken.",
+    "spillning": "Läggs nästan alltid i vattnet och ses sällan. Består av sågspånsliknande träfibrer.",
+    "fiender": "Varg, lodjur, björn och räv kan ta ungdjur på land. Vuxna bävrar har få fiender.",
+    "utbredning": "Hela landet utom Gotland och Skåne, tätast i Norrlands och Svealands skogslandskap.",
+    "images": {
+      "main": "images/baver.png",
+      "head": "images/baver-head.png"
+    }
   },
   {
     "id": "tjader",
@@ -453,7 +680,20 @@
       "Tjäderspelet sker på samma spelplatser år efter år, ofta i generationer.",
       "Tuppen kan under spelet bli så uppspelt att den attackerar människor.",
       "Vintertid sitter tjädern ofta i samma tall flera dagar och äter barr."
-    ]
+    ],
+    "familj": "Fasanfåglar (Phasianidae)",
+    "brunsttid": "Spel i april–maj",
+    "fortplantning": "Hönan lägger 5–10 ägg i en grop på marken och ruvar i cirka 27 dagar. Kycklingarna är borymmare och kan flyga korta sträckor efter två veckor.",
+    "spar": "Kraftiga trampavtryck med tre framåtriktade tår, cirka 10 cm. Vintertid syns fjäderklädda tåkanter i snön.",
+    "spillning": "Grova, korvliknande spillningar av tallbarr vintertid – ljusa i brottytan och ofta i högar under övernattningstallen.",
+    "fiender": "Räv, mård, duvhök, kungsörn och berguv. Ägg och kycklingar tas av kråkfåglar och vildsvin.",
+    "utbredning": "Hela landet där det finns äldre barrskog. Saknas på Gotland och i öppna slättbygder.",
+    "images": {
+      "main": "images/tjader.png",
+      "head": "images/tjader-head.png",
+      "male": "images/tjader-male.png",
+      "female": "images/tjader-female.png"
+    }
   },
   {
     "id": "orre",
@@ -477,7 +717,19 @@
       "Orrspelet samlar ofta 5–20 tuppar på samma spelplats.",
       "Vintertid bukar orren ner sig i snön för att spara värme.",
       "Orrens bubblande kuttrande hörs upp till flera kilometer."
-    ]
+    ],
+    "familj": "Fasanfåglar (Phasianidae)",
+    "brunsttid": "Spel i april–maj",
+    "fortplantning": "Hönan lägger 6–10 ägg och ruvar i cirka 25 dagar. Tupparna deltar inte i uppfödningen utan samlas på spelplatsen.",
+    "spar": "Trampavtryck med tre tår, cirka 6–7 cm, ofta i myrkanter och på snötäckta hyggen.",
+    "spillning": "Korvformade spillningar av björkknopp vintertid, ljusare och smalare än tjäderns.",
+    "fiender": "Räv, mård, duvhök och kungsörn. Spelplatsen gör tupparna sårbara.",
+    "utbredning": "Hela landet utom Gotland och Skånes slättbygder. Tätast i mosaiklandskap med myr och hyggen.",
+    "images": {
+      "main": "images/orre.png",
+      "male": "images/orre-male.png",
+      "female": "images/orre-female.png"
+    }
   },
   {
     "id": "jarpe",
@@ -501,7 +753,17 @@
       "Järpen lever i par i samma revir stora delar av året – ovanligt bland hönsfåglar.",
       "Lockpipa som härmar järpens vissling är ett klassiskt jaktredskap.",
       "Järpen flyger sällan långt – den smiter hellre undan tätt genom granarna."
-    ]
+    ],
+    "familj": "Fasanfåglar (Phasianidae)",
+    "brunsttid": "Parbildning och spel i april–maj",
+    "fortplantning": "Paret håller ihop i samma revir. Hönan lägger 7–11 ägg och ruvar i cirka 25 dagar. Kycklingarna kan flyga upp i träd redan efter en vecka.",
+    "spar": "Litet trampavtryck med tre tår, cirka 4 cm. Ses sällan – järpen håller sig i tät granskog.",
+    "spillning": "Små, smala korvspillningar, ofta av hängen och knoppar, vid vilo- och sandbadplatser.",
+    "fiender": "Duvhök, sparvhök, mård och räv. Är beroende av tät skog för skydd.",
+    "utbredning": "Norra och mellersta Sverige samt Värmland. Har minskat i söder i takt med att granskogen förändrats.",
+    "images": {
+      "main": "images/jarpe.png"
+    }
   },
   {
     "id": "dalripa",
@@ -525,7 +787,17 @@
       "Dalripans revirläte låter som ett rullande skratt.",
       "Fjäderklädda fötter fungerar som snöskor.",
       "Ripjakten i fjällen är en stark tradition, ofta med stående fågelhund."
-    ]
+    ],
+    "familj": "Fasanfåglar (Phasianidae)",
+    "brunsttid": "Spel i april–maj",
+    "fortplantning": "Paret är monogamt och tuppen försvarar reviret aktivt. Hönan lägger 8–12 ägg och ruvar i cirka 21 dagar. Båda föräldrarna följer kycklingarna.",
+    "spar": "Fjäderklädda fötter ger diffusa, breda avtryck i snön. Övernattningsgropar i snön är ett typiskt tecken.",
+    "spillning": "Smala, ljusa korvar av björk- och videknopp, ofta i mängd vid snögropar.",
+    "fiender": "Fjällräv, rödräv, jaktfalk, kungsörn och fjällvråk. Beståndet svänger med smågnagarcyklerna.",
+    "utbredning": "Fjällkedjan och fjällnära skogar från Dalarna och norrut, samt myrmarker i Norrbotten.",
+    "images": {
+      "main": "images/dalripa.png"
+    }
   },
   {
     "id": "fjallripa",
@@ -549,7 +821,17 @@
       "Fjällripan trycker ofta så hårt att man nästan kan kliva på den innan den lyfter.",
       "Den gräver sig ner i snön för att övernatta och spara värme.",
       "Fjällripan klarar temperaturer under minus 40 grader."
-    ]
+    ],
+    "familj": "Fasanfåglar (Phasianidae)",
+    "brunsttid": "Spel i maj–juni",
+    "fortplantning": "Hönan lägger 6–10 ägg direkt på marken bland blockmark och ruvar i cirka 21 dagar. Kycklingarna är borymmare.",
+    "spar": "Breda, fjäderklädda avtryck i snön, ofta vid blockmark. Gräver övernattningsgropar i snön.",
+    "spillning": "Små, ljusa och smala korvar, ofta samlade i snögropar på kalfjället.",
+    "fiender": "Jaktfalk, kungsörn, fjällräv och rödräv. Kamouflaget är dess främsta skydd.",
+    "utbredning": "Kalfjället i Norrbotten, Västerbotten, Jämtland och norra Dalarna – ovanför trädgränsen.",
+    "images": {
+      "main": "images/fjallripa.png"
+    }
   },
   {
     "id": "fasan",
@@ -573,7 +855,19 @@
       "Fasantuppens gälla utrop följt av vingsmatter hörs långt över fälten.",
       "Fasanen övernattar gärna uppflugen i träd.",
       "Många fasaner sätts årligen ut för jakt med stående och stötande hundar."
-    ]
+    ],
+    "familj": "Fasanfåglar (Phasianidae)",
+    "brunsttid": "Spel i mars–maj",
+    "fortplantning": "Tuppen samlar harem av flera hönor. Hönan lägger 8–15 ägg och ruvar i cirka 24 dagar. Kycklingarna är borymmare och flyger efter två veckor.",
+    "spar": "Långt trampavtryck med tre tår och tydlig baktå, cirka 6–7 cm. Vanligt i snö kring gårdar och häckar.",
+    "spillning": "Korvformade, ofta med vit urinsyrefläck i ena änden – syns vid foderplatser.",
+    "fiender": "Räv, mård, duvhök, katt och kråkfåglar. Många fasaner är utsatta och stödutfodrade.",
+    "utbredning": "Södra och mellersta Sveriges odlingslandskap, tätast i Skåne och kring godsen. Saknas i norr.",
+    "images": {
+      "main": "images/fasan.png",
+      "male": "images/fasan-male.png",
+      "female": "images/fasan-female.png"
+    }
   },
   {
     "id": "rapphona",
@@ -597,7 +891,17 @@
       "Rapphönan lägger en av fågelvärldens största kullar – ofta 15–20 ägg.",
       "Familjegruppen, kedjan, håller ihop hela vintern.",
       "Många jägare arbetar aktivt med viltvård för att gynna rapphönan."
-    ]
+    ],
+    "familj": "Fasanfåglar (Phasianidae)",
+    "brunsttid": "Parbildning i februari–april",
+    "fortplantning": "Rapphönan är monogam och lägger en av fågelvärldens största kullar – ofta 15–20 ägg. Ruvningen tar cirka 24 dagar och familjen (kedjan) håller ihop till våren.",
+    "spar": "Litet trampavtryck med tre tår, cirka 4 cm, ofta i grupper längs dikesrenar och åkerkanter.",
+    "spillning": "Små korvformade spillningar, ofta i ansamlingar där kedjan har övernattat på öppen mark.",
+    "fiender": "Räv, duvhök, sparvhök, kråka och katt. Effektiva jordbruk och våta somrar slår hårt mot ungarna.",
+    "utbredning": "Södra och mellersta Sveriges slättbygder, tätast i Skåne, Västergötland och Östergötland.",
+    "images": {
+      "main": "images/rapphona.png"
+    }
   },
   {
     "id": "ringduva",
@@ -621,7 +925,17 @@
       "Ringduvan kan flyga över 100 km om dagen mellan övernattning och födosök.",
       "Duvungar matas med duvmjölk från föräldrarnas kräva.",
       "Höstens duvsträck kan omfatta hundratusentals fåglar på en dag."
-    ]
+    ],
+    "familj": "Duvor (Columbidae)",
+    "brunsttid": "Häckningstid april–september",
+    "fortplantning": "Lägger nästan alltid två vita ägg i ett glest riskvistbo. Ruvningen tar cirka 17 dagar och ungarna matas med duvmjölk från kräven. Två till tre kullar per år.",
+    "spar": "Litet trampavtryck med tre framåtriktade tår och tydlig baktå, cirka 4 cm. Ses vid vattenhål och på åkrar.",
+    "spillning": "Fasta, ljusa klumpar med vit urinsyra – ansamlas rikligt under övernattningsträd.",
+    "fiender": "Duvhök är den främsta fienden. Även sparvhök, pilgrimsfalk och kråkfåglar tar ägg och ungar.",
+    "utbredning": "Hela landet upp till Lappland, tätast i södra Sveriges odlingslandskap, parker och trädgårdar.",
+    "images": {
+      "main": "images/ringduva.png"
+    }
   },
   {
     "id": "grasand",
@@ -645,7 +959,19 @@
       "Gräsanden kan lyfta nästan lodrätt ur vattnet.",
       "Andjakt i skymningen (sträckjakt) är en av de vanligaste jaktformerna på fågel.",
       "Honan flyttar ungarna till vatten redan första dygnet efter kläckning."
-    ]
+    ],
+    "familj": "Änder (Anatidae)",
+    "brunsttid": "Parbildning redan på hösten, häckning mars–juni",
+    "fortplantning": "Honan lägger 8–12 ägg i ett dunfodrat bo på marken och ruvar i cirka 28 dagar. Ungarna följer henne till vattnet första dygnet och är flygga efter cirka åtta veckor.",
+    "spar": "Simfotsavtryck, cirka 5–6 cm, med tydlig simhud mellan de tre framåtriktade tårna. Vanligt i strandkantens dy.",
+    "spillning": "Mjuk, grönaktig till brun spillning, ofta riklig vid bryggor och strandkanter.",
+    "fiender": "Räv, mink, mård och kråkfåglar tar ägg och ungar. Gädda tar ungar i vattnet.",
+    "utbredning": "Hela landet vid i stort sett alla typer av vatten, från fjällsjöar till stadsdammar.",
+    "images": {
+      "main": "images/grasand.png",
+      "male": "images/grasand-male.png",
+      "female": "images/grasand-female.png"
+    }
   },
   {
     "id": "kricka",
@@ -669,7 +995,17 @@
       "Krickan lyfter nästan lodrätt ur vattnet.",
       "Flockarna svänger unisont i luften, nästan som vadarflockar.",
       "Namnet kommer från hanens knirkande läte."
-    ]
+    ],
+    "familj": "Änder (Anatidae)",
+    "brunsttid": "Parbildning vintertid, häckning maj–juli",
+    "fortplantning": "Honan lägger 8–11 ägg i ett väl dolt bo nära vatten och ruvar i cirka 22 dagar. Ungarna är flygga efter cirka fyra veckor.",
+    "spar": "Mycket litet simfotsavtryck, cirka 3,5 cm, i mjuk dy vid myrgölar och grunda vikar.",
+    "spillning": "Liten och mjuk, ofta mörk och svår att skilja från andra små änders.",
+    "fiender": "Mink, räv, kråkfåglar och rovfåglar. Ungar tas av gädda och trut.",
+    "utbredning": "Hela landet, tätast i Norrlands myrmarker och vid näringsrika småvatten.",
+    "images": {
+      "main": "images/kricka.png"
+    }
   },
   {
     "id": "blasand",
@@ -693,7 +1029,17 @@
       "Bläsanden betar gräs på stränder och fält mer än någon annan svensk and.",
       "Hanens visslande läte hörs på långt håll.",
       "Under höstflyttningen ses tusentals bläsänder längs kusterna."
-    ]
+    ],
+    "familj": "Änder (Anatidae)",
+    "brunsttid": "Parbildning vintertid, häckning maj–juni",
+    "fortplantning": "Honan lägger 7–10 ägg i ett dolt bo på marken och ruvar i cirka 25 dagar. Familjen betar ofta tillsammans på stränder.",
+    "spar": "Simfotsavtryck, cirka 5 cm, ses ofta på betade strandängar där arten söker gräs.",
+    "spillning": "Grönaktig, gräsrik spillning – lik gåsens eftersom bläsanden betar mycket gräs.",
+    "fiender": "Räv, mink, kråkfåglar och rovfåglar tar ägg och ungar.",
+    "utbredning": "Häckar främst i Norrlands myrar och fjällsjöar. Ses i stora flockar längs kusterna under flyttningen.",
+    "images": {
+      "main": "images/blasand.png"
+    }
   },
   {
     "id": "knipa",
@@ -717,7 +1063,17 @@
       "Knipan häckar i trädhål och holkar, ibland tio meter över marken.",
       "De dygnsgamla ungarna hoppar från boet ner till marken utan att skadas.",
       "Knipholkar vid skogssjöar är en klassisk viltvårdsåtgärd."
-    ]
+    ],
+    "familj": "Änder (Anatidae)",
+    "brunsttid": "Parbildning vintertid, häckning april–juni",
+    "fortplantning": "Häckar i hålträd och holkar, ibland tio meter upp. Honan lägger 8–11 ägg och ruvar i cirka 30 dagar. De dygnsgamla ungarna hoppar ur boet till marken utan att skadas.",
+    "spar": "Simfotsavtryck, cirka 5 cm, med kraftiga klomärken. Ses vid strandkanter och på isen.",
+    "spillning": "Mjuk och mörk, ofta med rester av skal från musslor och insekter.",
+    "fiender": "Mård tar ägg och ruvande honor i holkar. Mink, räv och stora trutar tar ungar.",
+    "utbredning": "Hela landet vid klara skogssjöar, älvar och skärgårdar. Knipholkar gynnar arten starkt.",
+    "images": {
+      "main": "images/knipa.png"
+    }
   },
   {
     "id": "storskrake",
@@ -741,7 +1097,17 @@
       "Näbbens sågtänder fungerar som en fisktång.",
       "Honor kan samla ihop stora ungflockar från flera kullar.",
       "Storskraken tar gärna stora holkar och hålträd som boplats."
-    ]
+    ],
+    "familj": "Änder (Anatidae)",
+    "brunsttid": "Parbildning vintertid, häckning april–juni",
+    "fortplantning": "Häckar i hålträd, holkar och under stenar. Honan lägger 8–12 ägg och ruvar i cirka 32 dagar. Honor kan slå ihop ungkullar till stora flockar.",
+    "spar": "Stort simfotsavtryck, cirka 7 cm, med tydliga klomärken. Ses på klippor och sandstränder.",
+    "spillning": "Lös, ofta vitaktig och fiskluktande med rester av fiskben och fjäll.",
+    "fiender": "Mård och mink tar ägg och ungar. Havsörn tar vuxna fåglar.",
+    "utbredning": "Hela landet vid klara sjöar, älvar och kuster – tätast i skärgårdarna och Norrlands vattendrag.",
+    "images": {
+      "main": "images/storskrake.png"
+    }
   },
   {
     "id": "kanadagas",
@@ -765,7 +1131,17 @@
       "Kanadagäss flyger i typisk plogformation för att spara energi.",
       "Paret håller ihop livet ut.",
       "Gåsjakt sker ofta på morgonen över fält med lockbilder (vettar)."
-    ]
+    ],
+    "familj": "Änder (Anatidae)",
+    "brunsttid": "Parbildning för livet, häckning april–juni",
+    "fortplantning": "Honan lägger 4–7 ägg i ett stort dunfodrat bo, ofta på en ö. Ruvningen tar cirka 28 dagar och båda föräldrarna vaktar gässlingarna aggressivt.",
+    "spar": "Stort simfotsavtryck, 9–11 cm, med kraftig simhud. Mycket vanligt på betade gräsmattor och stränder.",
+    "spillning": "Grova, gröna gräskorvar – rikligt förekommande på badplatser och gräsmattor.",
+    "fiender": "Räv och havsörn tar ungar och enstaka vuxna. Kråkfåglar och trut tar ägg.",
+    "utbredning": "Hela landet upp till Norrbotten, tätast kring sjöar och vikar i södra och mellersta Sverige.",
+    "images": {
+      "main": "images/kanadagas.png"
+    }
   },
   {
     "id": "gragas",
@@ -789,7 +1165,17 @@
       "Grågåsen var nära försvinnande i Sverige i början av 1900-talet.",
       "Under sensommaren samlas tusentals grågäss vid södra Sveriges slättsjöar.",
       "Gässen betar helst på nattbelysta öppna fält där de känner sig trygga."
-    ]
+    ],
+    "familj": "Änder (Anatidae)",
+    "brunsttid": "Parbildning för livet, häckning mars–juni",
+    "fortplantning": "Honan lägger 4–6 ägg i ett dunfodrat bo i vassen eller på en ö. Ruvningen tar cirka 28 dagar. Familjen håller ihop under hela första året.",
+    "spar": "Stort simfotsavtryck, cirka 9 cm, snarlikt kanadagåsens men något smalare.",
+    "spillning": "Gröna gräskorvar med ljus urinsyrefläck – rikligt vid betade strandängar och åkrar.",
+    "fiender": "Räv, havsörn och mink tar ägg och ungar. Vuxna gäss har få fiender.",
+    "utbredning": "Hela landet upp till Norrbotten, tätast vid slättsjöar och kuster i södra Sverige.",
+    "images": {
+      "main": "images/gragas.png"
+    }
   },
   {
     "id": "morkulla",
@@ -813,7 +1199,17 @@
       "Morkullans ögon ger nästan 360 graders synfält.",
       "Näbbspetsen är känslig och rörlig för att känna maskar i marken.",
       "Honan kan flyga med ungarna mellan benen om fara hotar."
-    ]
+    ],
+    "familj": "Snäppor (Scolopacidae)",
+    "brunsttid": "Dragflykt (spel) april–juli",
+    "fortplantning": "Hanen sträcker i skymningen (drar) över reviret. Honan lägger fyra ägg i en grop på marken och ruvar i cirka 22 dagar. Ungarna är borymmare.",
+    "spar": "Litet trampavtryck med tre smala tår, cirka 4 cm, i mjuk skogsmark. Näbbstick i marken avslöjar födosök.",
+    "spillning": "Vitaktiga, kladdiga klickar – ses vid maskrika födosöksplatser.",
+    "fiender": "Räv, mård, duvhök och vildsvin (ägg och ungar). Kamouflaget är dess främsta skydd.",
+    "utbredning": "Hela landet där det finns fuktig löv- och blandskog. Tätast i mellersta Sverige.",
+    "images": {
+      "main": "images/morkulla.png"
+    }
   },
   {
     "id": "kraka",
@@ -837,7 +1233,17 @@
       "Kråkor kan lära sig känna igen enskilda människor.",
       "Vintertid samlas kråkor i stora gemensamma övernattningsplatser.",
       "Kråkjakt med bulvan och lockpipa är en effektiv viltvårdsjakt."
-    ]
+    ],
+    "familj": "Kråkfåglar (Corvidae)",
+    "brunsttid": "Parbildning för livet, häckning april–juni",
+    "fortplantning": "Bygger ett stort risbo högt i ett träd. Honan lägger 4–6 ägg och ruvar i cirka 19 dagar medan hanen matar henne. En kull per år.",
+    "spar": "Trampavtryck med tre framåtriktade tår och kraftig baktå, cirka 6 cm. Mycket vanligt i snö och sand.",
+    "spillning": "Vitgrå kladdiga klickar, rikligt under övernattningsträd.",
+    "fiender": "Duvhök och berguv. Kråkan mobbar aktivt rovfåglar och räv.",
+    "utbredning": "Hela landet, från skärgård och odlingslandskap till fjällbjörkskog och stadskärnor.",
+    "images": {
+      "main": "images/kraka.png"
+    }
   },
   {
     "id": "skata",
@@ -861,7 +1267,17 @@
       "Skatan är en av få fågelarter som klarar spegeltestet – den känner igen sig själv.",
       "Skatboet är ett klotformat risbygge med tak och två ingångar.",
       "Gamla skatbon används ofta av andra fåglar, till exempel hornugglor."
-    ]
+    ],
+    "familj": "Kråkfåglar (Corvidae)",
+    "brunsttid": "Parbildning för livet, häckning april–juni",
+    "fortplantning": "Bygger ett klotformat risbo med tak och sidoingång. Honan lägger 5–7 ägg och ruvar i cirka 18 dagar. Gamla skatbon används av ugglor och andra fåglar.",
+    "spar": "Trampavtryck med tre tår och baktå, cirka 5 cm, ofta med släpmärken efter den långa stjärten i snön.",
+    "spillning": "Vitgrå klickar, ofta vid gårdar och foderplatser.",
+    "fiender": "Duvhök och berguv. Kråkor plundrar skatbon.",
+    "utbredning": "Hela landet upp till Lappland, starkt knuten till bebyggelse, gårdar och öppet landskap.",
+    "images": {
+      "main": "images/skata.png"
+    }
   },
   {
     "id": "kaja",
@@ -885,7 +1301,17 @@
       "Kajor bildar par för livet och håller ihop året runt.",
       "Vintertid samlas tusentals kajor på gemensamma övernattningsplatser.",
       "Kajan är en skicklig problemlösare som kan öppna enkla luckor och lås."
-    ]
+    ],
+    "familj": "Kråkfåglar (Corvidae)",
+    "brunsttid": "Parbildning för livet, häckning april–juni",
+    "fortplantning": "Häckar kolonivis i skorstenar, kyrktorn och hålträd. Honan lägger 4–6 ägg och ruvar i cirka 18 dagar. Paret håller ihop året runt.",
+    "spar": "Litet kråkliknande trampavtryck, cirka 4,5 cm, ofta i stora mängder på åkrar och gräsmattor.",
+    "spillning": "Vitgrå klickar som ansamlas kraftigt vid kolonier och övernattningsplatser.",
+    "fiender": "Duvhök, berguv och pilgrimsfalk. Kolonin varnar gemensamt för fara.",
+    "utbredning": "Södra och mellersta Sverige upp till Norrland, starkt knuten till bebyggelse och kyrkbyar.",
+    "images": {
+      "main": "images/kaja.png"
+    }
   },
   {
     "id": "notskrika",
@@ -909,6 +1335,16 @@
       "Nötskrikan gömmer tusentals ekollon varje höst och hjälper på så vis eken att sprida sig.",
       "Den härmar skickligt andra fåglar, bland annat ormvråkens skri.",
       "Varningsskriet gör att både vilt och jägare vet när något är i rörelse."
-    ]
+    ],
+    "familj": "Kråkfåglar (Corvidae)",
+    "brunsttid": "Parbildning i mars–april, häckning april–juni",
+    "fortplantning": "Bygger ett väl dolt risbo i tät gran. Honan lägger 5–7 ägg och ruvar i cirka 17 dagar. Paret är mycket tystlåtet vid boet.",
+    "spar": "Litet trampavtryck, cirka 4,5 cm, ofta i snö kring foderplatser och ekbackar.",
+    "spillning": "Små vitgrå klickar, ses vid foderplatser och under vilogrenar.",
+    "fiender": "Duvhök och sparvhök. Nötskrikan varnar högljutt för både rovdjur och människor.",
+    "utbredning": "Hela landet upp till Lappland där det finns barr- och blandskog, gärna med ekinslag.",
+    "images": {
+      "main": "images/notskrika.png"
+    }
   }
 ]

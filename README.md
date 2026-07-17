@@ -24,9 +24,12 @@ python -m http.server 4519
 
 - **Startsida** med sökfält (svenskt + vetenskapligt namn, filtrering utan
   omladdning), snabbknappar och artkort grupperade per kategori
-- **Djursida** med beskrivning, vikt, längd, livslängd, habitat, föda,
-  aktiv tid, kännetecken, intressanta fakta samt jakttider, regler och en
-  jaktsäsongskalender (månad för månad, per län)
+- **Djursida** med bildgalleri (illustration, närbild, hane/hona, ungdjur,
+  horn/gevir, spår, spillning – bilder som saknas döljs automatiskt) och
+  expanderbara faktasektioner: om arten, snabbfakta, kännetecken,
+  fortplantning, spår, spillning, horn och gevir, utbredning i Sverige,
+  naturliga fiender och intressanta fakta. Längst ner jakttider, regler och
+  en jaktsäsongskalender (månad för månad, per län)
 - **Jakttider**: välj län och datum → gröna kort för *Tillåtet idag* och
   röda för *Fredat idag*; licensjaktsarter är markerade
 - **Favoriter** med hjärtknapp, sparas lokalt i webbläsaren
@@ -40,32 +43,51 @@ js/app.js             Start, hash-routing, delade händelser
 js/data.js            Datainläsning
 js/favorites.js       Favoriter + valt län (localStorage)
 js/season.js          Jakttidslogik (period/län/datum)
+js/imageTypes.js      Bildtyper + filnamnskonvention (delas av UI och verktyg)
 js/images.js          Artbilder med fallback-kedja bild → emoji
+js/gallery.js         Bildgalleri med flikar och lightbox
 js/views/             En modul per vy (hem, djur, jakttider, favoriter)
-data/animals.json     38 arter med fakta
+data/animals.json     38 arter med fakta och bildindex
 data/jakttider.json   Jakttider per art – separat fil, enkel att uppdatera
 data/lan.json         Sveriges 21 län
-images/               AI-genererade artillustrationer (PNG, transparent)
-images/thumbs/        256 px-miniatyrer för kort och listor
+images/               AI-genererade illustrationer (PNG, transparent)
+images/thumbs/        256 px-miniatyrer för kort, listor och gallerinflikar
 tools/                Skript för bildgenerering och miniatyrer
 docs/superpowers/specs/  Designdokument
 ```
 
 ## Artbilder 🎨
 
-Varje art har en AI-genererad illustration (`images/<id>.png`, 1024×1024 PNG
-med transparent bakgrund, gpt-image-1.5) i enhetlig naturguide-stil utifrån
-en gemensam promptmall. Kort och listor använder miniatyrerna i
-`images/thumbs/`; djursidan visar originalet. Saknas en bild faller appen
-automatiskt tillbaka på artens emoji, så biblioteket kan byggas ut stegvis.
+Alla illustrationer är AI-genererade (gpt-image-1.5, 1024×1024 PNG med
+transparent bakgrund) från en gemensam promptmall, så att hela biblioteket
+ser ut att komma från samma illustratör. Varje art kan ha åtta bildtyper:
 
-Arbetsflöde för nya arter:
+| Typ | Fil | Gäller |
+|---|---|---|
+| `main` | `images/<id>.png` | alla arter |
+| `head` | `images/<id>-head.png` | alla arter |
+| `young` | `images/<id>-young.png` | alla arter |
+| `tracks` | `images/<id>-tracks.png` | alla arter |
+| `droppings` | `images/<id>-droppings.png` | alla arter |
+| `antlers` | `images/<id>-antlers.png` | arter med `horn`-fält |
+| `male` / `female` | `images/<id>-male.png` … | tydligt könsskilda arter |
 
-1. Lägg till arten i `data/animals.json` och `data/jakttider.json`
-2. `node tools/generate-images.mjs` – listar arter utan bild och skriver ut
-   den färdiga bildprompten (generera via bildgen-MCP:n, filnamn `<id>.png`,
-   transparent bakgrund, flytta till `images/`)
-3. `powershell -File tools/make-thumbs.ps1` – skapar saknade miniatyrer
+Databasens `images`-objekt indexerar bara de bilder som faktiskt finns – UI:t
+döljer resten automatiskt. Saknas alla bilder visas artens emoji.
+
+Arbetsflöde (kan köras om hur många gånger som helst – befintliga bilder
+skrivs aldrig över):
+
+1. Lägg ev. till arten i `data/animals.json` och `data/jakttider.json`
+2. `node tools/generate-images.mjs` – visar vilka bilder som saknas och skriver
+   ut färdig prompt + filnamn för varje
+3. Generera via bildgen-MCP:n (`background: transparent`, `quality: high`) och
+   flytta filerna från `assets/generated/` till `images/`
+4. `powershell -File tools/make-thumbs.ps1` – miniatyrer för nya bilder
+5. `node tools/generate-images.mjs --sync` – skriver in sökvägarna i databasen
+
+Nya bildtyper läggs till i `js/imageTypes.js` + generatorns promptmall; varken
+galleriet eller vyerna behöver ändras.
 
 ## Viktigt om jakttiderna ⚠️
 

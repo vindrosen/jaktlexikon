@@ -2,6 +2,7 @@
 
 import { loadData } from "./data.js";
 import { toggleFavorite, setSelectedLan } from "./favorites.js";
+import { installGallery } from "./gallery.js";
 import { renderHome, refreshHomeLists } from "./views/home.js";
 import { renderAnimal, refreshSeasonSection } from "./views/animal.js";
 import { renderJakttider, resetToToday } from "./views/jakttider.js";
@@ -92,6 +93,11 @@ async function init() {
       </div>`;
     return;
   }
+
+  // Galleriet behöver veta vilken art som visas just nu.
+  installGallery(() =>
+    state.route.name === "djur" ? state.data.byId.get(state.route.id) : null
+  );
 
   window.addEventListener("hashchange", render);
   render();

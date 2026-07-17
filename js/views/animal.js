@@ -1,8 +1,13 @@
-// Djursidan: fakta om arten samt jakttider, regler och säsongskalender.
+// Djursidan: bildgalleri, expanderbara faktasektioner samt jakttider och regler.
+//
+// Sektionerna är datadrivna (se SECTIONS nedan) – en sektion visas bara om
+// artens fält innehåller något. Nya fält läggs till i data/animals.json och
+// i SECTIONS, utan att resten av vyn behöver ändras.
 
 import { esc } from "../data.js";
 import { isFavorite, getSelectedLan } from "../favorites.js";
-import { animalVisual } from "../images.js";
+import { renderGallery } from "../gallery.js";
+import { IMAGE_TYPE_MAP } from "../imageTypes.js";
 import {
   periodsForLan,
   formatRange,
@@ -11,8 +16,87 @@ import {
   MONTH_LETTERS,
 } from "../season.js";
 
-function infoRow(label, value) {
-  return `<div><dt>${label}</dt><dd>${esc(value)}</dd></div>`;
+// type: "text" (sträng), "list" (array) eller "rows" (etikett/fält-par).
+// image: valfri bildtyp som visas inne i sektionen om arten har den.
+const SECTIONS = [
+  { label: "Om arten", emoji: "🌲", type: "text", field: "beskrivning", open: true },
+  {
+    label: "Snabbfakta",
+    emoji: "📋",
+    type: "rows",
+    open: true,
+    rows: [
+      ["Familj", "familj"],
+      ["Habitat", "habitat"],
+      ["Föda", "foda"],
+      ["Aktiv tid", "aktivitet"],
+    ],
+  },
+  { label: "Kännetecken", emoji: "👀", type: "list", field: "kannetecken", image: "head" },
+  {
+    label: "Fortplantning",
+    emoji: "🍼",
+    type: "rows",
+    rows: [
+      ["Brunsttid", "brunsttid"],
+      ["Fortplantning", "fortplantning"],
+    ],
+    image: "young",
+  },
+  { label: "Spår", emoji: "🐾", type: "text", field: "spar", image: "tracks" },
+  { label: "Spillning", emoji: "💩", type: "text", field: "spillning", image: "droppings" },
+  { label: "Horn och gevir", emoji: "🦌", type: "text", field: "horn", image: "antlers" },
+  { label: "Utbredning i Sverige", emoji: "🗺️", type: "text", field: "utbredning" },
+  { label: "Naturliga fiender", emoji: "⚔️", type: "text", field: "fiender" },
+  { label: "Intressanta fakta", emoji: "💡", type: "list", field: "fakta" },
+];
+
+function sectionBody(animal, section) {
+  switch (section.type) {
+    case "text":
+      return `<p class="section-text">${esc(animal[section.field])}</p>`;
+    case "list":
+      return `<ul class="bullet-list">${animal[section.field]
+        .map((v) => `<li>${esc(v)}</li>`)
+        .join("")}</ul>`;
+    case "rows":
+      return `<dl class="info-list">${section.rows
+        .filter(([, field]) => animal[field])
+        .map(([label, field]) => `<div><dt>${esc(label)}</dt><dd>${esc(animal[field])}</dd></div>`)
+        .join("")}</dl>`;
+    default:
+      return "";
+  }
+}
+
+function hasContent(animal, section) {
+  if (section.type === "rows") return section.rows.some(([, field]) => animal[field]);
+  const value = animal[section.field];
+  return Array.isArray(value) ? value.length > 0 : Boolean(value);
+}
+
+function renderSection(animal, section) {
+  if (!hasContent(animal, section)) return "";
+
+  const imgKey = section.image;
+  const imgSrc = imgKey && animal.images?.[imgKey];
+  const image = imgSrc
+    ? `<button class="section-img" data-open-image="${imgKey}"
+         aria-label="Visa ${esc(IMAGE_TYPE_MAP[imgKey].label.toLowerCase())} i större format">
+         <img src="${imgSrc}" alt="${esc(animal.namn)} – ${esc(IMAGE_TYPE_MAP[imgKey].label)}" loading="lazy" />
+       </button>`
+    : "";
+
+  return `
+    <details class="section-card" ${section.open ? "open" : ""}>
+      <summary><span class="section-emoji" aria-hidden="true">${section.emoji}</span>${esc(
+        section.label
+      )}</summary>
+      <div class="section-body ${image ? "has-img" : ""}">
+        <div class="section-main">${sectionBody(animal, section)}</div>
+        ${image}
+      </div>
+    </details>`;
 }
 
 function seasonCalendar(art, lanKod) {
@@ -107,7 +191,7 @@ export function renderAnimal(root, state, id) {
         <button class="fav-btn large ${fav ? "is-fav" : ""}" data-fav="${animal.id}"
           aria-label="${fav ? "Ta bort favorit" : "Lägg till favorit"}">❤️</button>
       </div>
-      ${animalVisual(animal, "hero-img", "big-emoji", "full")}
+      ${renderGallery(animal)}
       <h1>${esc(animal.namn)}</h1>
       <p class="latin">${esc(animal.latinNamn)}</p>
       <span class="badge category">${esc(animal.kategori)}</span>
@@ -119,33 +203,7 @@ export function renderAnimal(root, state, id) {
       <div class="stat"><span class="label">⏳ Livslängd</span><span class="value">${esc(animal.livslangd)}</span></div>
     </div>
 
-    <div class="content-card">
-      <h2>🌲 Om arten</h2>
-      <p style="margin:0">${esc(animal.beskrivning)}</p>
-    </div>
-
-    <div class="content-card">
-      <h2>📋 Snabbfakta</h2>
-      <dl class="info-list">
-        ${infoRow("Habitat", animal.habitat)}
-        ${infoRow("Föda", animal.foda)}
-        ${infoRow("Aktiv tid", animal.aktivitet)}
-      </dl>
-    </div>
-
-    <div class="content-card">
-      <h2>👀 Kännetecken</h2>
-      <ul class="bullet-list">
-        ${animal.kannetecken.map((k) => `<li>${esc(k)}</li>`).join("")}
-      </ul>
-    </div>
-
-    <div class="content-card">
-      <h2>💡 Intressanta fakta</h2>
-      <ul class="bullet-list">
-        ${animal.fakta.map((f) => `<li>${esc(f)}</li>`).join("")}
-      </ul>
-    </div>
+    ${SECTIONS.map((s) => renderSection(animal, s)).join("")}
 
     <div id="season-section">${seasonSection(animal, state)}</div>`;
 }
