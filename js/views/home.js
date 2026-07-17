@@ -2,6 +2,7 @@
 
 import { esc } from "../data.js";
 import { getFavorites, isFavorite } from "../favorites.js";
+import { animalVisual } from "../images.js";
 
 const CATEGORY_ORDER = [
   "Klövvilt",
@@ -20,7 +21,7 @@ export function animalCard(animal) {
       <a class="card-hit" href="#/djur/${animal.id}" aria-label="${esc(animal.namn)}"></a>
       <button class="fav-btn ${fav ? "is-fav" : ""}" data-fav="${animal.id}"
         aria-label="${fav ? "Ta bort favorit" : "Lägg till favorit"}" title="Favorit">❤️</button>
-      <span class="emoji" aria-hidden="true">${animal.emoji}</span>
+      ${animalVisual(animal, "card-img", "emoji")}
       <h3>${esc(animal.namn)}</h3>
       <p class="latin">${esc(animal.latinNamn)}</p>
       <p class="desc">${esc(animal.beskrivning)}</p>

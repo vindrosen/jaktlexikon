@@ -2,6 +2,7 @@
 
 import { esc } from "../data.js";
 import { isFavorite, getSelectedLan } from "../favorites.js";
+import { animalVisual } from "../images.js";
 import {
   periodsForLan,
   formatRange,
@@ -106,7 +107,7 @@ export function renderAnimal(root, state, id) {
         <button class="fav-btn large ${fav ? "is-fav" : ""}" data-fav="${animal.id}"
           aria-label="${fav ? "Ta bort favorit" : "Lägg till favorit"}">❤️</button>
       </div>
-      <span class="big-emoji" aria-hidden="true">${animal.emoji}</span>
+      ${animalVisual(animal, "hero-img", "big-emoji", "full")}
       <h1>${esc(animal.namn)}</h1>
       <p class="latin">${esc(animal.latinNamn)}</p>
       <span class="badge category">${esc(animal.kategori)}</span>

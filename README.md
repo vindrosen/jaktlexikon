@@ -40,12 +40,32 @@ js/app.js             Start, hash-routing, delade händelser
 js/data.js            Datainläsning
 js/favorites.js       Favoriter + valt län (localStorage)
 js/season.js          Jakttidslogik (period/län/datum)
+js/images.js          Artbilder med fallback-kedja bild → emoji
 js/views/             En modul per vy (hem, djur, jakttider, favoriter)
-data/animals.json     31 arter med fakta
+data/animals.json     38 arter med fakta
 data/jakttider.json   Jakttider per art – separat fil, enkel att uppdatera
 data/lan.json         Sveriges 21 län
+images/               AI-genererade artillustrationer (PNG, transparent)
+images/thumbs/        256 px-miniatyrer för kort och listor
+tools/                Skript för bildgenerering och miniatyrer
 docs/superpowers/specs/  Designdokument
 ```
+
+## Artbilder 🎨
+
+Varje art har en AI-genererad illustration (`images/<id>.png`, 1024×1024 PNG
+med transparent bakgrund, gpt-image-1.5) i enhetlig naturguide-stil utifrån
+en gemensam promptmall. Kort och listor använder miniatyrerna i
+`images/thumbs/`; djursidan visar originalet. Saknas en bild faller appen
+automatiskt tillbaka på artens emoji, så biblioteket kan byggas ut stegvis.
+
+Arbetsflöde för nya arter:
+
+1. Lägg till arten i `data/animals.json` och `data/jakttider.json`
+2. `node tools/generate-images.mjs` – listar arter utan bild och skriver ut
+   den färdiga bildprompten (generera via bildgen-MCP:n, filnamn `<id>.png`,
+   transparent bakgrund, flytta till `images/`)
+3. `powershell -File tools/make-thumbs.ps1` – skapar saknade miniatyrer
 
 ## Viktigt om jakttiderna ⚠️
 

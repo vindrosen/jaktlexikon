@@ -3,6 +3,7 @@
 import { esc } from "../data.js";
 import { getSelectedLan, setSelectedLan } from "../favorites.js";
 import { statusForDate, formatRange, toMmDd } from "../season.js";
+import { animalVisual } from "../images.js";
 
 let selectedDate = null; // behålls bara under sessionen
 
@@ -36,7 +37,7 @@ function seasonRow(animal, status, allowed) {
     : "";
   return `
     <a class="season-card ${allowed ? "ok" : "stop"}" href="#/djur/${animal.id}">
-      <span class="emoji" aria-hidden="true">${animal.emoji}</span>
+      ${animalVisual(animal, "row-img", "emoji")}
       <span class="name">${esc(animal.namn)}
         ${desc ? `<small>${esc(desc)}</small>` : ""}
         ${!allowed && !status.periods.length ? `<small>Ingen allmän jakttid i länet</small>` : ""}
